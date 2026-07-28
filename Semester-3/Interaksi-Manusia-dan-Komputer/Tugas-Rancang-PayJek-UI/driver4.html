@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pesanan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="driver4.css" />
+  </head>
+  <body>
+    <div class="driver-7">
+      <div class="container-6">
+        <div class="container-3">
+          <div class="rectangle-1"></div>
+        </div>
+        <div class="silang" id="close-button">
+          <div class="silang-1">
+            <img class="x" src="vectors/x_x2.svg" />
+          </div>
+        </div>
+      </div>
+      <div class="container-2">
+        <div class="cari-lokasi-tujuan-1">
+          <div class="arrow-up">
+            <img class="formkitarrowup" src="vectors/formkitarrowup_2_x2.svg" />
+          </div>
+          <div class="universitas-kristen-satya-wacana">
+            Universitas Kristen Satya Wacana
+          </div>
+        </div>
+        <div class="cari-lokasi-tujuan">
+          <div class="icon-cari-lokasi-tujuan">
+            <div class="ellipse-2"></div>
+          </div>
+          <div class="fti-uksw">
+            FTI UKSW
+          </div>
+        </div>
+      </div>
+      <div class="container-9">
+        <div class="container-5">
+          <div class="container-1">
+            <div class="h-1248-be">
+              H 1809 PK
+            </div>
+            <span class="honda-jazz">
+              Yamaha Mio
+            </span>
+          </div>
+          <div class="line-3"></div>
+          <div class="container">
+            <div class="rendy-syahputra">
+              Muhammad Irfan Maulana
+            </div>
+            <div class="container-8">
+              <div class="phstar">
+                <img class="vector" src="vectors/vector_39_x2.svg" />
+              </div>
+              <span class="container">
+                4,5
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="container-7">
+          <div class="line-4"></div>
+          <button class="chat" id="show-popup-button">
+            <div class="ellipse-3"></div>
+            <div class="ellipse-4"></div>
+            <div class="ellipse-5"></div>
+          </button>
+          <div class="container-4">
+            <div class="rectangle-46"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="imgPopup" class="popup">
+      <div class="popup-content">
+        <img src="IMG/pchatIrfan.png" alt="Pop-up Image" />
+      </div>
+    </div>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const popup = document.querySelector('.popup');
+        const popupContent = document.querySelector('.popup-content');
+    
+        // Fungsi untuk menampilkan pop-up
+        function showPopup() {
+          popup.style.display = 'flex';
+        }
+    
+        // Fungsi untuk menyembunyikan pop-up
+        function hidePopup(event) {
+          if (event.target === popup) {
+            popup.style.display = 'none';
+          }
+        }
+    
+        // Tambahkan event listener untuk menutup pop-up ketika klik di luar konten
+        popup.addEventListener('click', hidePopup);
+    
+        // Contoh pemicu untuk menampilkan pop-up
+        document.getElementById('show-popup-button').addEventListener('click', showPopup);
+
+        // Event listener untuk tombol silang
+        document.getElementById('close-button').addEventListener('click', function() {
+          window.location.href = '12. beranda.html';
+        });
+      });
+    </script>
+  </body>
+</html>

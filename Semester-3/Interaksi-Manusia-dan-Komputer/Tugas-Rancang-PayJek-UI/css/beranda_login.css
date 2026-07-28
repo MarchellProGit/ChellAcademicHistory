@@ -1,0 +1,358 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.header {
+    background-color: #7bb0ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+}
+
+.navbar {
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+    margin-top: 18px;
+    padding: 0 20px;
+}
+
+.navbar b {
+    font-size: 40px;
+    color: white;
+    margin-left: 30px;
+}
+
+.search-box {
+    width: 100%;
+    max-width: 500px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-left: 25px;
+    margin: 0 20px;
+}
+
+.search-box>i {
+    font-size: 20px;
+    color: black;
+}
+
+.search-box>input {
+    flex: 1;
+    border: none;
+    outline: transparent;
+    padding-left: 10px;
+}
+
+.user img {
+    width: 60px;
+    margin-right: 60px;
+}
+
+.hallo {
+    max-width: 95%;
+    margin: 0 auto;
+    margin-top: 1%;
+    font-weight: 700;
+}
+
+.slider-wrapper {
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.carousel-item img {
+    height: 350px;
+    object-fit: cover;
+}
+
+.carousel-indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Sesuaikan margin top sesuai kebutuhan */
+}
+
+.carousel-indicators button {
+    width: 20px;
+    height: 20px;
+    background-color: #D9D9D9;
+    border: none;
+    margin: 0 5px;
+    border-radius: 0; /* Buat border-radius menjadi 0 untuk tampilan kotak */
+}
+
+.carousel-indicators .active {
+    background-color: #00B2FF;
+}
+
+.btn4 {
+    display: flex;
+    justify-content: center; /* Untuk menempatkan tombol di tengah */
+    gap: 40px; /* Jarak antar tombol */
+    width: 95%;
+    margin: 0 auto;
+}
+
+.butno1 {
+    color: black;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: #A7CBFF;
+    background-color: #A7CBFF;
+    cursor: pointer;
+    width: 100%;
+    max-width: 320px;
+    height: 100%;
+    max-height: 800px;
+    font-size: 40px;
+}
+
+.butno1:hover {
+    color: white;
+    background-color: #00B2FF;
+    box-shadow: 0 2px 2px #757575;
+}
+
+.butno2 {
+    color: black;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: #A7CBFF;
+    background-color: #A7CBFF;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    width: 100%;
+    max-width: 320px;
+    height: 100%;
+    max-height: 800px;
+    font-size: 40px;
+}
+
+.butno2:hover {
+    color: white;
+    background-color: #FF0000;
+    box-shadow: 0 2px 2px #757575;
+}
+
+.butno3 {
+    color: black;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: #A7CBFF;
+    background-color: #A7CBFF;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    width: 100%;
+    max-width: 320px;
+    height: 100%;
+    max-height: 800px;
+    font-size: 40px;
+}
+
+.butno3:hover {
+    color: white;
+    background-color: #00FF72;
+    box-shadow: 0 2px 2px #757575;
+}
+
+.butno4 {
+    color: black;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: #A7CBFF;
+    background-color: #A7CBFF;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    width: 100%;
+    max-width: 320px;
+    height: 100%;
+    max-height: 800px;
+    font-size: 40px;
+}
+
+.butno4:hover {
+    color: white;
+    background-color: #9747FF;
+    box-shadow: 0 2px 2px #757575;
+}
+
+.card {
+    border: none;
+    margin-bottom: 20px;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.card-text {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+.badge-danger {
+    font-size: 12px;
+    background-color: #dc3545;
+}
+
+footer {
+    background: #7bb0ff;
+    height: auto;
+    width: 100%;
+    padding-top: 30px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: end;
+}
+
+footer h3 {
+    justify-content: left;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-top: -85px;
+    margin-left: 40px;
+}
+
+.footer-content a {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about {
+    list-style: none;
+    display: flex;
+    margin-top: -60px;
+}
+
+.about li {
+    margin-bottom: 15px;
+    padding-right: 65px;
+}
+
+.we {
+    display: flex;
+    margin-top: -30px;
+}
+
+.we h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.social {
+    display: flex;
+    list-style: none;
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-bottom: 120px;
+}
+
+.social li {
+    margin-right: 25px;
+}
+
+.social img {
+    width: 40px;
+}
+
+.footer-bottom {
+    display: flex;
+    background-color: #2072E5;
+    padding: 15px;
+    width: 100%;
+}
+
+.footer-bottom p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.footer-bottom img {
+    width: 150px;
+    margin-top: 10px;
+    justify-content: end;
+}
+
+@media screen and (max-width: 768px) {
+    .slider-wrapper {
+        max-width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar b {
+        margin: 10px 0;
+    }
+
+    .search-box {
+        width: 100%;
+        max-width: none;
+        margin: 10px 0;
+    }
+
+    .navbar .user {
+        margin: 10px 0;
+    }
+
+    .footer-content {
+        text-align: center;
+    }
+
+    .about {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about li {
+        margin-bottom: 10px;
+    }
+
+    .social {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pilih Layanan</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    .extended-bg {
+      height: 150vh;
+      background-color: white;
+      position: relative;
+    }
+    .custom-rectangle {
+      width: 100%;
+      height: 620px;
+      background-color: #7BB0FF;
+      border-radius: 0 0 29px 29px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
+    }
+    .inner-rectangle {
+      width: 95%;
+      height: 90%;
+      background-color: white;
+      border-radius: 29px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .inner-rectangle img {
+      width: 93%;
+      height: 90%;
+      border-radius: 29px;
+    }
+    .close-button {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: 46px;
+      height: 46px;
+      border: 1px solid #D9D9D9;
+      background-color: #D9D9D9;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      z-index: 1000;
+    }
+    .close-button i {
+      color: black;
+      font-size: 20px;
+    }
+    .pldriver {
+      font-weight: 600;
+      background-color: #7BB0FF;
+      color: white;
+      width: 95%;
+      border-radius: 10px;
+      padding: 15px 30px;
+      border: none;
+      font-size: 18px;
+      text-align: center;
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      bottom: -100px;
+    }
+    .service-buttons {
+      display: flex;
+      justify-content: space-between;
+      width: 95%;
+      margin-top: 10px;
+      position: absolute;
+      bottom: 50px;
+    }
+    .service-button {
+      background-color: #7BB0FF;
+      color: white;
+      width: 47%;
+      border-radius: 10px;
+      padding: 15px 30px;
+      border: 2px solid white;
+      font-size: 18px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+    .service-button i {
+      margin-right: 10px;
+      font-size: 24px;
+    }
+    .service-button:hover {
+      background-color: white;
+      color: #7BB0FF;
+      border: 2px solid #7BB0FF;
+    }
+    .jek-car {
+      margin-left: 30px;
+      font-weight: 600;
+    }
+    .jek-ride {
+      font-weight: 600;
+    }
+    .popup-background {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.25);
+      justify-content: center;
+      align-items: center;
+    }
+    .popup {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 500px;
+      height: 350px;
+      border: 2px solid black;
+      box-sizing: border-box;
+      position: relative;
+    }
+    .popup p {
+      position: absolute;
+      left: 50%;
+      top: 30%;
+      transform: translate(-50%, -50%);
+      font-size: 23px;
+      font-weight: 600;
+    }
+    .popup-buttons {
+      position: absolute;
+      left: 50%;
+      bottom: 10%;
+      transform: translateX(-50%);
+      display: flex;
+      justify-content: space-between;
+      width: 300px;
+    }
+    .popup-button {
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      width: 150px;
+      height: 50px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .popup-button.yes {
+      background-color: #5e9fff;
+      color: white;
+    }
+    .popup-button.no {
+      background-color: white;
+      color: #5e9fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="p-3 mb-2 text-primary-emphasis extended-bg">
+    <div class="custom-rectangle">
+      <div class="inner-rectangle">
+        <img src="IMG/mapawal.png" alt="Maps">
+        <div class="close-button" onclick="goToHome()">
+          <i class="fas fa-times"></i>
+        </div>
+      </div>
+      <div class="pldriver">Pilih Layanan Driver</div>
+    </div>
+    <div class="service-buttons">
+      <button class="service-button jek-car" onclick="showPopup('driver5.html')"><i class="fas fa-car"></i>JEK CAR</button>
+      <button class="service-button jek-ride" onclick="showPopup('driver2.html')"><i class="fas fa-motorcycle"></i>JEK RIDE</button>
+    </div>
+  </div>
+
+  <div class="popup-background" id="popupBackground">
+    <div class="popup">
+      <p>Apakah Pilihan Anda Sudah Benar?</p>
+      <div class="popup-buttons">
+        <button class="popup-button no" onclick="hidePopup()">Tidak</button>
+        <button class="popup-button yes" onclick="confirmChoice()">Ya</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"></script>
+  <script>
+    function showPopup(destination) {
+      document.getElementById('popupBackground').style.display = 'flex';
+      localStorage.setItem('destination', destination); // Menyimpan tujuan ke local storage
+    }
+    function hidePopup() {
+      document.getElementById('popupBackground').style.display = 'none';
+    }
+    function confirmChoice() {
+      var destination = localStorage.getItem('destination');
+      if (destination) {
+        window.location.href = destination;
+      } else {
+        // Penanganan jika tidak ada tujuan yang tersimpan
+        console.error('Tujuan tidak ditemukan');
+      }
+    }
+    function goToHome() {
+      window.location.href = '12. beranda.html';
+    }
+  </script>
+</body>
+</html>

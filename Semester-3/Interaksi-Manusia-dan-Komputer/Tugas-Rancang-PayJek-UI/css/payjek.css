@@ -1,0 +1,159 @@
+body {
+    font-family: 'Inter', sans-serif;   
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.fontjek {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+li, a, b, button {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+header.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 7%;
+    background-color: #7bb0ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.user {
+    color: #ffffff;
+    font-size: 45px;
+}
+
+.paybox {
+    width: auto;
+    background-color: #c2daff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    font-size: 18px;
+    margin: 2% 5%;
+    padding: 20px 7%;
+}
+
+.boxing {
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 1;
+    text-align: left;
+}
+
+.btnbox {
+    display: flex;
+    justify-content: center; /* Untuk menempatkan tombol di tengah */
+    gap: 20px; /* Jarak antar tombol */
+    width: 100%;
+    margin-top: 10px;
+}
+
+.btn {
+    color: black;
+    font-weight: 800;
+    padding: 10px 20px;
+    border: 2px solid rgb(192, 192, 192);
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    width: 280px;
+    font-size: 16px;
+}
+
+.btn:hover {
+    border: 2px solid #757575;
+    box-shadow: 0 2px 2px #757575;
+}
+
+.mskangka {
+    width: 100%;
+    display: flex;
+    justify-content: left; /* Untuk menempatkan input di kiri */
+}
+
+.angka-input {
+    width: 100%;
+    max-width: 300px; /* Batas maksimal lebar input */
+    padding: 10px;
+    border: 2px solid rgb(192, 192, 192);
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 2%;
+}
+
+.btnback {
+    display: flex;
+    justify-content: space-between; /* Ruang antara tombol */
+    width: 90%; /* Lebar kontainer tombol */
+    margin: auto; /* Tengah dengan margin auto */
+    margin-top: 7%;
+}
+
+.btnkembali {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 350px;
+    cursor: pointer; 
+    transition: all 0.3s ease;
+    margin-left: 2%;
+}
+
+.btnkembali:hover {
+    background-color: rgb(50, 50, 50); 
+    border-color: rgb(200, 200, 200); 
+}
+
+.btnlanjut {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: #7BB0FF;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 350px;
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+    margin-right: 3%;
+}
+
+.btnlanjut:hover {
+    color: #7BB0FF;
+    background-color: rgb(255, 255, 255); 
+    border-color: #7BB0FF; 
+}
+

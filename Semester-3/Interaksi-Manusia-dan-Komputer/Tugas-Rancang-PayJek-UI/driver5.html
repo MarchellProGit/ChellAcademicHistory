@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pilih Maps</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+      .extended-bg {
+        height: 140vh;
+        background-color: white;
+        position: relative;
+      }
+      .custom-rectangle {
+        width: 100%;
+        height: 620px;
+        background-color: #7BB0FF;
+        border-radius: 0 0 29px 29px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+      }
+      .inner-rectangle {
+        width: 95%;
+        height: 90%;
+        background-color: white;
+        border-radius: 29px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .inner-rectangle img {
+        width: 93%;
+        height: 90%;
+        border-radius: 29px;
+      }
+      .location-buttons {
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        margin: 20px auto;
+      }
+      .location-button {
+        background-color: #f6f6f6;
+        border: 1px solid #d2d2d2;
+        border-radius: 5px;
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        width: 48%;
+      }
+      .location-button .circle {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+      }
+      .location-button-blue .circle {
+        background-color: blue;
+      }
+      .location-button-blue .circle i {
+        color: white;
+        font-size: 16px;
+      }
+      .location-button-orange .circle {
+        background-color: orange;
+      }
+      .location-button-orange .circle i {
+        color: white;
+        font-size: 10px;
+      }
+      .location-button span {
+        font-size: 16px;
+        color: #cfcfcf;
+      }
+      /* garis atau line */
+      .divider {
+        width: 100%;
+        height: 3px;
+        background-color: #d2d2d2;
+      }
+      .action-buttons {
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        margin: 20px auto;
+      }
+      .action-button {
+        width: 353px;
+        height: 50px;
+        font-size: 25px;
+        font-weight: 600;
+        border: none;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+      }
+      .action-button-back {
+        background-color: black;
+        color: white;
+        margin-left: 100px; /* Adjust this value to move the button more to the right */
+      }
+      .action-button-next {
+        background-color: #7BB0FF;
+        color: white;
+        margin-right: 100px; /* Adjust this value to move the button more to the left */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="p-3 mb-2 text-primary-emphasis extended-bg">
+      <div class="custom-rectangle">
+        <div class="inner-rectangle">
+          <img src="IMG/mapawal.png" alt="Maps">
+        </div>
+      </div>
+      <div class="location-buttons">
+        <div class="location-button location-button-blue">
+          <div class="circle">
+            <i class="fas fa-arrow-up"></i>
+          </div>
+          <span>Lokasi kamu sekarang</span>
+        </div>
+        <div class="location-button location-button-orange">
+          <div class="circle">
+            <i class="fa-solid fa-circle"></i>
+          </div>
+          <span>Cari lokasi tujuan</span>
+        </div>
+      </div>
+      <hr class="divider"> 
+      <div class="action-buttons">
+        <button class="action-button action-button-back" onclick="goToDriver1()">Kembali</button>
+        <button class="action-button action-button-next" onclick="goToDriver3()">Lanjut</button>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"></script>
+    <script>
+      function goToDriver1() {
+        window.location.href = 'driver1.html';
+      }
+      function goToDriver3() {
+        window.location.href = 'driver6.html';
+      }
+    </script>
+  </body>
+</html>

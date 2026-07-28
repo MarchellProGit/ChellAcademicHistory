@@ -1,0 +1,329 @@
+.driver-7 .rectangle-1 {
+    border-radius: 29px;
+    background: url(IMG/rectangle_1.png) 50% / cover no-repeat;
+    width: 1292px;
+    height: 646px;
+  }
+  .driver-7 .container-3 {
+    border-radius: 29px;
+    background: #FFFFFF;
+    position: relative;
+    display: flex;
+    padding: 37px 36px 37px 35px;
+    width: 1363px;
+    height: 720px;
+    box-sizing: border-box;
+  }
+  .driver-7 .x {
+    width: 20px;
+    height: 20px;
+  }
+  .driver-7 .silang-1 {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+  }
+  .driver-7 .silang {
+    border-radius: 23px;
+    background: #D9D9D9;
+    position: absolute;
+    left: 28px;
+    top: 25px;
+    display: flex;
+    padding: 13px;
+    width: 46px;
+    height: 46px;
+    box-sizing: border-box;
+  }
+  .driver-7 .container-6 {
+    border-radius: 0 0 20px 20px;
+    background: #7BB0FF;
+    position: relative;
+    margin-bottom: 28px;
+    display: flex;
+    padding: 34px 38px 34px 39px;
+    width: 1440px;
+    height: 788px;
+    box-sizing: border-box;
+  }
+  .driver-7 .formkitarrowup {
+    width: 15.6px;
+    height: 27.2px;
+  }
+  .driver-7 .arrow-up {
+    border-radius: 17.5px;
+    background: #1400FF;
+    position: relative;
+    margin-right: 27px;
+    display: flex;
+    padding: 3.9px 10.1px 3.9px 9.3px;
+    width: 35px;
+    height: 35px;
+    box-sizing: border-box;
+  }
+  .driver-7 .universitas-kristen-satya-wacana {
+    margin: 2px 0 3px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 25px;
+    color: #000000;
+  }
+  .driver-7 .cari-lokasi-tujuan-1 {
+    border-radius: 5px;
+    border: 1px solid #D2D2D2;
+    background: #F6F6F6;
+    position: relative;
+    margin-right: 34px;
+    display: flex;
+    flex-direction: row;
+    padding: 13px 0 12px 18px;
+    width: 649px;
+    box-sizing: border-box;
+  }
+  .driver-7 .ellipse-2 {
+    border-radius: 5.8px;
+    background: #FFFFFF;
+    width: 11.7px;
+    height: 11.7px;
+  }
+  .driver-7 .icon-cari-lokasi-tujuan {
+    border-radius: 17.5px;
+    background: #EF9000;
+    position: relative;
+    margin-right: 25px;
+    display: flex;
+    padding: 11.7px;
+    width: 35px;
+    height: 35px;
+    box-sizing: border-box;
+  }
+  .driver-7 .fti-uksw {
+    margin: 2px 0 3px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 25px;
+    color: #000000;
+  }
+  .driver-7 .cari-lokasi-tujuan {
+    border-radius: 5px;
+    border: 1px solid #D2D2D2;
+    background: #F6F6F6;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 13px 0 12px 20px;
+    width: 680px;
+    box-sizing: border-box;
+  }
+  .driver-7 .container-2 {
+    margin: 0 38px 34px 39px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .driver-7 .h-1248-be {
+    margin-bottom: 3px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 25px;
+    color: #000000;
+  }
+  .driver-7 .honda-jazz {
+    margin-left: 1px;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 25px;
+    color: #6F6F6F;
+  }
+  .driver-7 .container-1 {
+    margin: 3px 53.4px 0 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .driver-7 .line-3 {
+    background: #000000;
+    margin-right: 45.5px;
+    width: 1px;
+    height: 66px;
+  }
+  .driver-7 .rendy-syahputra {
+    margin-bottom: 6px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 25px;
+    color: #8F8787;
+  }
+  .driver-7 .vector {
+    width: 17.5px;
+    height: 16.9px;
+  }
+  .driver-7 .phstar {
+    margin: 2.3px 13.3px 4.9px 0;
+    display: flex;
+    width: 17.5px;
+    height: 16.9px;
+    box-sizing: border-box;
+  }
+  .driver-7 .container {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+  }
+  .driver-7 .container-8 {
+    border-radius: 20px;
+    border: 1px solid #000000;
+    background: #FFFFFF;
+    position: relative;
+    margin: 0 4px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    padding: 4px 15.4px 2px 13.3px;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .driver-7 .container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .driver-7 .container-5 {
+    margin: 7px 0 12px 0;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .driver-7 .line-4 {
+    background: #000000;
+    margin: 7px 47px 12px 0;
+    width: 1px;
+    height: 66px;
+  }
+  .driver-7 .ellipse-3 {
+    border-radius: 5px;
+    background: #000000;
+    margin-right: 12px;
+    width: 10px;
+    height: 10px;
+  }
+  .driver-7 .ellipse-4 {
+    border-radius: 5px;
+    background: #000000;
+    margin-right: 12px;
+    width: 10px;
+    height: 10px;
+  }
+  .driver-7 .ellipse-5 {
+    border-radius: 5px;
+    background: #000000;
+    width: 10px;
+    height: 10px;
+  }
+  .driver-7 .chat {
+    border-radius: 20px;
+    border: 1px solid #000000;
+    background: #FFFFFF;
+    position: relative;
+    margin: 19px 42px 25px 0;
+    display: flex;
+    flex-direction: row;
+    padding: 16px 0 15px 20px;
+    width: 605px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .driver-7 .rectangle-46 {
+    border-radius: 15px;
+    background: url(IMG/ojolRendy.jpeg) 50% / cover no-repeat;
+    width: 75px;
+    height: 75px;
+  }
+  .driver-7 .container-4 {
+    border-radius: 15px;
+    background: #D9D9D9;
+    position: relative;
+    display: flex;
+    padding: 5px;
+    width: 85px;
+    height: 85px;
+    box-sizing: border-box;
+  }
+  .driver-7 .container-7 {
+    display: flex;
+    flex-direction: row;
+    width: 780px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .driver-7 .container-9 {
+    border-radius: 20px;
+    border: 2px solid #000000;
+    background: #FFFFFF;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 14px 18px 15px 56px;
+    width: 1440px;
+    box-sizing: border-box;
+  }
+  .driver-7 {
+    border-radius: 20px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    box-sizing: border-box;
+  }
+  
+  /* Pop-up container */
+  .popup {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  /* Pop-up content */
+  .popup-content {
+    position: relative; /* To position close button */
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px; /* Maximum width */
+    text-align: center; /* Center the text */
+  }
+  
+  .popup-content img {
+    max-width: 100%; /* Responsive image */
+    height: auto;
+  }
+  
+  
+  

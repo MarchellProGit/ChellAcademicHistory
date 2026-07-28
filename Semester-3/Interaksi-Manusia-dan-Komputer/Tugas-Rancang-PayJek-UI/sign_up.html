@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jek.ID Sign Up</title>
+    <link rel="stylesheet" href="3. sign_up.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a class="header-brand">Jek.ID</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="auth-content">
+            <h2 class="subtitle">DAFTAR</h2>
+            <form id="registration-form">
+                <div class="input-group">
+                    <img src="VECTOR\vector_48_x2.svg" alt="User Icon" class="icon">
+                    <input type="text" id="full-name" placeholder="Full Name" required>
+                </div>
+                <div class="input-group">
+                    <img src="VECTOR\email_x2.svg" alt="Email Icon" class="icon">
+                    <input type="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="input-group">
+                    <img src="VECTOR/vector_47_x2.svg" alt="Phone Icon" class="icon">
+                    <input type="tel" id="phone" placeholder="Phone" required>
+                </div>
+                <div class="input-group password-group">
+                    <img src="VECTOR/vector_50_x2.svg" alt="Password Icon" class="icon">
+                    <input type="password" id="password" placeholder="Password" required>
+                    <img src="VECTOR/vector_20_x2.svg" alt="Show Password" class="toggle-password" id="toggle-password">
+                </div>
+                <a href="12. beranda.html" class="login-button">Daftar</a>
+
+            </form>
+            <div class="divider"> or </div>
+            <div class="auth-links">
+                <button class="google-login">
+                    <img src="IMG/pngwing_1.png" alt="Google Icon"> Sign up with Google
+                </button>
+                <button class="signup">
+                    Have an account? <a href="2. sign_in.html">Sign In</a>
+                </button>
+            </div>
+            <div class="download-links">
+                <a href="#"><img src="IMG/image_31.png" alt="Google Play"></a>
+                <a href="#"><img src="IMG/image_7.png" alt="App Store"></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Forgot Password Overlay -->
+    <div class="overlay" id="overlay">
+        <div class="modal">
+            <h2>Forgot Password</h2>
+            <p>Enter your email to reset your password:</p>
+            <form id="forgot-password-form">
+                <div class="input-group">
+                    <input type="email" id="email" placeholder="Your email" required>
+                </div>
+                <button type="submit" class="submit-button">Send Reset Link</button>
+                <button type="button" class="close-overlay" id="close-overlay">Close</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <a href="6. help.html" class="footer-link">Help</a>
+            <a href="#" class="footer-link">Terms of Service</a>
+            <a href="8. privasi.html" class="footer-link">Privacy Policy</a>
+            <a href="#" class="footer-link">Manage Cookies</a>
+        </div>
+        <div class="footer-copy">
+            <p>© 2024 Kelompok 3 - IMK A</p>
+        </div>
+    </footer>
+
+    <script src="3. sign_up.js"></script>
+</body>
+</html>

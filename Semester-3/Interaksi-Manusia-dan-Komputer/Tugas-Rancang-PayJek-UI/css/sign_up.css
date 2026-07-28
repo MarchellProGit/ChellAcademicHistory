@@ -1,0 +1,356 @@
+/* General styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: url('IMG/landing_page.png') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Header */
+.header {
+  position: absolute;
+  width: 100%;
+  background: transparent;
+  padding: 10px 0;
+  display: flex;
+  justify-content: left;
+  z-index: 1;
+  top: 0;
+}
+
+.header .container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.header-brand {
+  color: white;
+  font-size: 40px;
+  font-weight: 900;
+  text-decoration: none;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Hero Section */
+.hero {
+  background: transparent;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.subtitle {
+  font-size: 30px;
+  font-weight: 900;
+  color: #000000;
+  margin: 100px auto 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Sign Up Form */
+#registration-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  overflow: hidden;
+  background: #ffffff;
+  width: 100%; /* Ensure the input group takes full width of its container */
+}
+
+.input-group .icon {
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.input-group input {
+  flex: 1; /* Make the input field take up remaining space */
+  padding: 15px; /* Adjust padding for better size */
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.password-group {
+  position: relative; /* Position relative to position the toggle icon absolutely */
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+/* Buttons */
+.login-button {
+  background: #000;
+  color: white;
+  padding: 15px 80px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 20px auto; /* Center button and add margin */
+  font-weight: 400;
+  display: block;
+  text-decoration: none;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+  color: #000; /* Warna teks */
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.divider::before, .divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #000; /* Warna garis */
+  margin: 0 10px; /* Jarak antara garis dan teks */
+}
+
+.google-login {
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  line-height: 1;
+}
+
+.google-login img {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.auth-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 900px;
+  margin-top: 20px;
+}
+
+.signup {
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 13px 20px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  line-height: 1;
+}
+
+.signup a {
+  color: #FFC700;
+  text-decoration: none;
+}
+
+.signup a:hover {
+  text-decoration: underline;
+}
+
+.download-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.download-links a {
+  margin-left: 10px;
+}
+
+.download-links img {
+  width: 130px;
+}
+
+/* Overlay and Modal */
+.overlay {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure it sits above other content */
+}
+
+.modal {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  position: relative;
+}
+
+.modal h2 {
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: #333;
+}
+
+.modal p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #555;
+}
+
+.input-group-modal {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.input-group-modal input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 16px;
+}
+
+.submit-button {
+  background: #000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background: #333;
+}
+
+.close-overlay {
+  background: #ccc;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.close-overlay:hover {
+  background: #999;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: transparent;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  margin-top: 50px; /* Push footer to the bottom */
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footer-copy {
+  font-size: 14px;
+  color: #ccc;
+  margin: 0;
+}
+
+/* Adjustments for mobile responsiveness */
+@media (max-width: 600px) {
+  .modal {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .submit-button, .close-overlay {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+  }
+}
