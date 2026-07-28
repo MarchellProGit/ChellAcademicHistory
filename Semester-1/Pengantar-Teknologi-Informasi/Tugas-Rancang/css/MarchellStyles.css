@@ -1,0 +1,314 @@
+/* Navbar */
+.navbar {
+  background-color: #30363f;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.navbar-brand {
+  color: #ececec;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+  margin-right: 20px;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: #000000;
+}
+
+.navbar-toggler {
+  border: none;
+  color: #ffffff;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  color: #ffffff;
+}
+
+.nav-link {
+  color: #333;
+}
+
+.nav-link:focus {
+  outline: none;
+  color: #ffffff;
+}
+
+.nav-link:hover {
+  outline: none;
+  color: rgb(132, 0, 255);
+}
+
+.navbar-nav .nav-link.active {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+/* Header */
+.carousel-caption {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Tambahkan bayangan ke teks */
+  font-family: "Courgette", cursive; /* Tambahkan font-family ke carousel */
+  transition: background 0.1s ease-in-out; /* Transisi otomatis */
+}
+
+/* Page Header */
+.page-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/carousel-1.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.page-header .breadcrumb-item + .breadcrumb-item::before {
+  color: var(--light);
+}
+
+.page-header .breadcrumb-item,
+.page-header .breadcrumb-item a {
+  font-size: 18px;
+  color: var(--light);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Tambahkan bayangan ke teks */
+  transition: all 0.1s ease; /* Menambahkan efek transisi */
+  font-family: "Courgette", cursive; /* Tambahkan font-family ke page header */
+}
+
+/* Moving Text */
+.moving-text {
+  margin: 20px 0;
+  font-family: "Reem Kufi Ink", sans-serif;
+}
+
+/* Carousel controls styling */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 50px; /* Sesuaikan lebar tombol sesuai kebutuhan */
+  height: 50px; /* Sesuaikan tinggi tombol sesuai kebutuhan */
+  background-color: #007bff; /* Warna latar belakang tombol (biru) */
+  border: none;
+  border-radius: 50%; /* Tombol menjadi bulat */
+  font-size: 24px; /* Ukuran font tombol */
+  color: #fff; /* Warna teks tombol */
+  transition: background-color 0.2s ease-in-out, color 0.3s ease-in-out; /* Transisi otomatis */
+  position: absolute;
+  top: 50%; /* Meletakkan tombol di tengah secara vertikal */
+  transform: translateY(-50%);
+}
+
+.carousel-control-prev {
+  left: 10px; /* Meletakkan tombol prev di sebelah kiri */
+}
+
+.carousel-control-next {
+  right: 10px; /* Meletakkan tombol next di sebelah kanan */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: #0056b3; /* Warna latar belakang tombol saat hover (biru lebih tua) */
+}
+
+/* Carousel control icons styling */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: transparent;
+}
+
+/* Visually hidden text styling */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* page 1 */
+.card-mb-3-marchell {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  margin: auto; /* Center the card horizontally */
+  transition: box-shadow; /* Transisi otomatis pada box-shadow */
+}
+
+.card-title-name {
+  color: #000000;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-family: "Lugrasimo", cursive;
+  font-size: 30px;
+}
+
+.card-text-curhat {
+  color: #555;
+  font-family: "Volkhov", serif;
+}
+
+.img-fluid-1 {
+  max-width: 100%;
+  border-radius: 15px 0 0 15px;
+}
+
+.text-muted-1 {
+  color: #888;
+}
+
+.card-body-1 {
+  padding: 20px;
+}
+
+.card-mb-3-marchell:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Efek bayangan saat hover */
+}
+
+/* page 2 */
+.card-gts {
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: auto; /* Center the card horizontally */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh; /* Center the card vertically */
+  transition: box-shadow 0.3s ease-in-out; /* Transisi otomatis pada box-shadow */
+  transition: transform 0.1s ease-in-out; /* Transisi otomatis pada transform */
+}
+
+.card-gts:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Efek bayangan saat hover */
+  transform: scale(1.05); /* Efek perbesaran saat hover */
+}
+
+.card-gts:hover .btn-primary11 {
+  background-color: rgb(255, 252, 231);
+}
+
+.card-IG {
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: auto; /* Center the card horizontally */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh; /* Center the card vertically */
+  transition: box-shadow 0.3s ease-in-out; /* Transisi otomatis pada box-shadow */
+  transition: transform 0.1s ease-in-out; /* Transisi otomatis pada transform */
+}
+.card-IG:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Efek bayangan saat hover */
+  transform: scale(1.05); /* Efek perbesaran saat hover */
+}
+
+.card-IG:hover .btn-primary11 {
+  background-color: rgb(255, 252, 231);
+}
+
+.card-FB {
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: auto; /* Center the card horizontally */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh; /* Center the card vertically */
+  transition: box-shadow 0.3s ease-in-out; /* Transisi otomatis pada box-shadow */
+  transition: transform 0.1s ease-in-out; /* Transisi otomatis pada transform */
+}
+.card-FB:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Efek bayangan saat hover */
+  transform: scale(1.05); /* Efek perbesaran saat hover */
+}
+
+.card-FB:hover .btn-primary11 {
+  background-color: rgb(255, 252, 231);
+}
+
+.bg-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-image .mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: background-color 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-body {
+  padding: 20px;
+  text-align: center; /* Center the text and button */
+}
+
+.card-title {
+  color: #000000;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-family: "Holtwood One SC", serif;
+  font-size: 30px;
+}
+
+.card-text {
+  color: #000000;
+  font-family: "Berkshire Swash", serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+.btn-primary11 {
+  margin-top: 10px;
+  background-color: rgb(255, 255, 255);
+  color: #3a3232;
+  border: 1px solid #a90000;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-family: "Aladin", cursive;
+  text-decoration: none;
+  transition: background 0.3s ease-in-out;
+}

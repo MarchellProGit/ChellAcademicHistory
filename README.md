@@ -2,7 +2,7 @@
 > **Centralized Academic Portfolio & Coursework Archive**  
 > *Maintained by Marchell Adi Pratama*
 
-Welcome to **ChellAcademicHistory**, a structured, version-controlled repository containing source code, assignments, laboratory practice, and projects throughout my computer science / software engineering academic journey.
+Welcome to **ChellAcademicHistory**, a structured, version-controlled repository containing source code, assignments, laboratory practice, and capstone projects throughout my computer science / software engineering academic journey.
 
 ---
 
@@ -11,10 +11,8 @@ Welcome to **ChellAcademicHistory**, a structured, version-controlled repository
 ```text
 ChellAcademicHistory/
 └── Semester-1/
-    └── Dasar-Dasar-Pemrograman/        # C Programming Fundamentals
-        ├── 01-Latihan/                 # Lab exercises & exam prep
-        ├── 02-Tugas/                   # Coursework submissions & projects
-        └── 03-AST-DDP/                 # Assistant / AST materials
+    ├── Dasar-Dasar-Pemrograman/        # C Programming Fundamentals
+    └── Pengantar-Teknologi-Informasi/ # Introduction to IT & Web Development
 ```
 
 ---
@@ -22,21 +20,17 @@ ChellAcademicHistory/
 ## 📌 Semester Overview
 
 ### 🔹 Semester 1
-| Course Title | Language / Stack | Topics Covered | Link |
+| Course Title | Tech Stack | Description | Link |
 | :--- | :--- | :--- | :--- |
-| **Dasar - Dasar Pemrograman (DDP)** | C Language (GCC) | Syntax, Control Flow, Functions, Pointers, Arrays, Structs, CLI Applications | [View Folder](./Semester-1/Dasar-Dasar-Pemrograman/) |
+| **Dasar - Dasar Pemrograman (DDP)** | C (`GCC` / `C99`) | Syntax, Control Flow, Matrix Operations, Geometry Engine, CLI Apps | [View Course](./Semester-1/Dasar-Dasar-Pemrograman/) |
+| **Pengantar Teknologi Informasi (PTI)** | HTML5, CSS3, Bootstrap 5 | Web Architecture & Responsive Personal Web Portfolio Capstone | [View Course](./Semester-1/Pengantar-Teknologi-Informasi/) |
 
 ---
 
-## 🛠️ Build & Compilation
+## 🛠️ Build & Execution
 
-All C projects are standard C99/C11 code compatible with GCC and Code::Blocks.
-
-To compile any `.c` file manually:
-```bash
-gcc -o output_name path/to/file.c
-./output_name
-```
+* **C Programs**: Compile using any standard C compiler (`gcc path/to/file.c -o app`).
+* **Web Projects**: Open `index.html` in any modern web browser or serve locally (`python -m http.server 8000`).
 
 ---
 

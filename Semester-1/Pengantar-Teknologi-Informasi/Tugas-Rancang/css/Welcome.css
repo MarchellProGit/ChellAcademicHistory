@@ -1,0 +1,38 @@
+body {
+  background: linear-gradient(135deg, #007bff, #ffffff) center/cover no-repeat;
+  font-family: "Shrikhand", cursive;
+  color: #fff;
+  margin: 0;
+  background-attachment: fixed;
+}
+
+.btn-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn-container {
+  background: rgba(255, 255, 255, 0); /* Latar belakang sepenuhnya transparan */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+  font-size: 24px;
+  padding: 15px 30px;
+  color: #ffffff;
+  border: 2px solid #45a049;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8b00ff);
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #ff3333, #ff6633);
+  color: #ffffff;
+  border-color: #ff6633;
+  transform: scale(1.1);
+}
