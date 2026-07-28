@@ -1,0 +1,23 @@
+# Compiled C Binaries & Objects
+*.exe
+*.o
+*.obj
+*.out
+*.a
+*.so
+*.dll
+
+# IDE Build Directories
+bin/
+obj/
+.objs/
+.deps/
+
+# Code::Blocks IDE Artifacts
+*.depend
+*.layout
+*.bak
+
+# OS Metadata
+.DS_Store
+Thumbs.db
