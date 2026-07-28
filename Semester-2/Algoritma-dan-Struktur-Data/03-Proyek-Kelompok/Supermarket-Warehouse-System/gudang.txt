@@ -1,0 +1,100 @@
+001,Beras,50
+002,Gula,30
+003,Garam,100
+004,Minyak Goreng,40
+005,Tepung Terigu,60
+006,Susu Bubuk,20
+007,Kopi,35
+008,Teh Celup,45
+009,Mie Instan,200
+010,Telur Ayam,70
+011,Keju,25
+012,Mentega,50
+013,Roti Tawar,40
+014,Biskuit,30
+015,Sereal,25
+016,Air Mineral,150
+017,Soda,70
+018,Jus Buah,40
+019,Daging Ayam,20
+020,Daging Sapi,15
+021,Ikan,30
+022,Sayur Bayam,50
+023,Sayur Wortel,50
+024,Kentang,40
+025,Bawang Merah,20
+026,Bawang Putih,20
+027,Tomat,40
+028,Cabe,25
+029,Buah Apel,30
+030,Buah Jeruk,35
+031,Buah Pisang,40
+032,Buah Anggur,25
+033,Buah Mangga,30
+034,Sabun Mandi,60
+035,Shampoo,50
+036,Pasta Gigi,70
+037,Sikat Gigi,80
+038,Sabun Cuci Piring,60
+039,Detergen,50
+040,Pembersih Lantai,40
+041,Tisu,80
+042,Popok Bayi,20
+043,Pembalut,50
+044,Deodoran,40
+045,Parfum,25
+046,Obat Sakit Kepala,50
+047,Vitamin C,30
+048,Minyak Kayu Putih,40
+049,Obat Batuk,30
+050,Obat Flu,40
+051,Cokelat,30
+052,Permen,60
+053,Kacang Goreng,40
+054,Selai Kacang,25
+055,Mayones,30
+056,Saus Tomat,50
+057,Saus Sambal,50
+058,Kecap Manis,40
+059,Kecap Asin,40
+060,Margarine,50
+061,Krimer Kental Manis,60
+062,Bumbu Instan,100
+063,Susu Cair,50
+064,Sirup,30
+065,Cuka,60
+066,Rendang Daging,20
+067,Soto Ayam,30
+068,Sate Ayam,25
+069,Nasi Goreng,50
+070,Bakso,40
+071,Mie Ayam,50
+072,Ayam Goreng,30
+073,Ayam Bakar,25
+074,Ikan Bakar,20
+075,Udang Goreng,15
+076,Cumi Goreng,10
+077,Kerupuk,100
+078,Rendang,20
+079,Gulai Kambing,15
+080,Sop Buntut,20
+081,Ikan Asin,40
+082,Tempe,50
+083,Tahu,50
+084,Kangkung,40
+085,Kacang Panjang,40
+086,Bayam,50
+087,Kol,40
+088,Sawi,50
+089,Jagung Manis,30
+090,Brokoli,25
+091,Kembang Kol,30
+092,Selada,30
+093,Wortel,50
+094,Tomat,50
+095,Mentimun,40
+096,Paprika,25
+097,Timun Suri,30
+098,Terong,40
+099,Pare,30
+100,Petai,20
