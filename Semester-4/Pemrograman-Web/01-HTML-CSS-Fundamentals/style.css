@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-start;
+    margin-left: 40px;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.auth-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login, .signup {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.login {
+    background-color: #fff;
+    color: #323642;
+    border: 2px solid #333;
+}
+
+.signup {
+    background-color: #7731d8;
+    color: #fff;
+}
+
+.secondary-nav {
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.secondary-nav .nav-links {
+    display: flex;
+    justify-content: left;
+    padding-left: 100px;
+}
+
+.hero {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-text {
+    max-width: 500px;
+    margin-right: 20px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+}
+
+.cta-button {
+    background-color: #7731d8;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.feature-item {
+    padding: 20px 40px 5px 40px;
+    margin: 0 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.description {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.boxdesc {
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+}

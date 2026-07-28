@@ -1,0 +1,20 @@
+<Mahasiswas>
+    <Mahasiswa>
+        <Nama>Daniel</Nama>
+        <Umur>17</Umur>
+        <Nim>672022226</Nim>
+        <Hobi>
+            <Hobi_list>Membaca</Hobi_list>
+            <Hobi_list>Menonton</Hobi_list>
+        </Hobi>
+    </Mahasiswa>
+    <Mahasiswa>
+        <Nama>Obie</Nama>
+        <Umur>17</Umur>
+        <Nim>672022103</Nim>
+        <Hobi>
+            <Hobi_list>Menulis</Hobi_list>
+            <Hobi_list>Olahraga</Hobi_list>
+        </Hobi>
+    </Mahasiswa>
+</Mahasiswas>

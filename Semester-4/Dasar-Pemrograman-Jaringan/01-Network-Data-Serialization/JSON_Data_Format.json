@@ -1,0 +1,21 @@
+{
+    "Mahasiswas" : [
+        {
+            "Nama" : "Daniel",
+            "Umur" : 17,
+            "Nim" : "672022226",
+            "Hobi" :  [
+                "Membaca" ,
+                "Menonton"
+            ],
+            "Nama" : "Obie",
+            "Umur" : 17,
+            "Nim" : "672022102",
+            "Hobi" :  [
+                "Menulis" ,
+                "Olahraga"
+            ]
+
+        }
+    ]
+}

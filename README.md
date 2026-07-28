@@ -2,7 +2,7 @@
 > **Centralized Academic Portfolio & Coursework Archive**  
 > *Maintained by Marchell Adi Pratama*
 
-Welcome to **ChellAcademicHistory**, a structured, version-controlled repository containing source code, assignments, laboratory practice, machine learning models, UI/UX prototypes, and capstone projects throughout my computer science / software engineering academic journey.
+Welcome to **ChellAcademicHistory**, a structured, version-controlled repository containing source code, assignments, laboratory practice, machine learning models, UI/UX prototypes, web applications, and network programming projects throughout my computer science / software engineering academic journey.
 
 ---
 
@@ -19,7 +19,9 @@ ChellAcademicHistory/
 │   └── Interaksi-Manusia-dan-Komputer/ # UI/UX Design System & Web Prototype (PayJek)
 └── Semester-4/
     ├── Kecerdasan-Buatan/              # Artificial Intelligence, GA, EasyOCR & ID3
-    └── Pemrograman-Berorientasi-Objek/ # Java OOP, Swing GUI & MVC Desktop App
+    ├── Pemrograman-Berorientasi-Objek/ # Java OOP, Swing GUI & MVC Desktop App
+    ├── Pemrograman-Web/                # Full-Stack PHP/MySQL Web App (JobSeeker Portal)
+    └── Dasar-Pemrograman-Jaringan/    # Python Sockets, TCP/IP & Network Serialization
 ```
 
 ---
@@ -47,6 +49,8 @@ ChellAcademicHistory/
 | :--- | :--- | :--- | :--- |
 | **Kecerdasan Buatan (AI)** | Python (`EasyOCR`, `GA`, `ID3`) | Genetic Algorithm TSP Solver, EasyOCR Text Recognition, ID3 Trees & SQL Schemas | [View Course](./Semester-4/Kecerdasan-Buatan/) |
 | **Pemrograman Berorientasi Objek (PBO)** | Java (`Swing`, `MVC`, `JDBC`) | Java OOP Architecture, Warung Interface & Inventory Management System MVC | [View Course](./Semester-4/Pemrograman-Berorientasi-Objek/) |
+| **Pemrograman Web (PW)** | PHP (`PHP 8`), MySQL, CSS3 | Full-Stack JobSeeker Web Portal, Admin Dashboard & Session Management | [View Course](./Semester-4/Pemrograman-Web/) |
+| **Dasar Pemrograman Jaringan (DPJ)** | Python (`Sockets`, `TCP/IP`), JSON | Custom Python Network Socket Server, TCP Listener & Network Serialization | [View Course](./Semester-4/Dasar-Pemrograman-Jaringan/) |
 
 ---
 
@@ -54,8 +58,8 @@ ChellAcademicHistory/
 
 * **C / C++ Programs**: Compile using `gcc` or `g++` (`g++ -std=c++11 path/to/file.cpp -o app`).
 * **Java Projects**: Compile using `javac` (`javac -d bin src/**/*.java`).
-* **Python / AI Notebooks**: Run via Jupyter Notebook (`jupyter notebook`) or Python (`python path/to/script.py`).
-* **Web & UI Projects**: Open `index.html` in any web browser or serve locally (`python -m http.server 8000`).
+* **Python & Network Servers**: Run via Python (`python path/to/script.py`) or Jupyter (`jupyter notebook`).
+* **Web & PHP Projects**: Open `index.html` or run via PHP Built-in Server (`php -S localhost:8000`).
 
 ---
 
