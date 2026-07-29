@@ -7,11 +7,20 @@
 *.so
 *.dll
 
-# IDE Build Directories
+# IDE & Python Environments / Cache
 bin/
 obj/
 .objs/
 .deps/
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+node_modules/
+env/
+.venv/
+venv/
+.env
 
 # Code::Blocks IDE Artifacts
 *.depend
@@ -21,3 +30,4 @@ obj/
 # OS Metadata
 .DS_Store
 Thumbs.db
+

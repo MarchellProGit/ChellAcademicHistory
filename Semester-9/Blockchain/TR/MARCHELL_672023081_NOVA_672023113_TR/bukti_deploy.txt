@@ -1,0 +1,38 @@
+==================================================
+BUKTI DEPLOYMENT SMART CONTRACT (FOUNDRY)
+===========================================
+
+1. Kontrak: NexusDAO.sol
+2. Network: Anvil Local Node (127.0.0.1:8545)
+3. Deployer: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266 (Admin Account 1)
+4. Contract Address: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+5. Transaction Hash: 0x78cb98eb9b01f470c631481e13093f88a7fedd0c8f61b0567abe9a53d567e155
+6. Estimated Gas: ~900,000 gas (Deployment)
+
+===========================================
+BUKTI TRANSAKSI WRITE & READ (APLIKASI)
+===========================================
+7. Interaksi (Write & Read):
+   - Aplikasi (Frontend React) memanggil fungsi "createProposal" (Write).
+   - [Tx Hash: _(Salin dari notifikasi Toast Hijau di Web)_ ]
+   - Mengonsumsi Gas: ~140,000 gas.
+   - State berubah (Array bertambah).
+
+   - Aplikasi memanggil fungsi "castVote" (Write).
+   - [Tx Hash: _(Salin dari notifikasi Toast Hijau di Web)_ ]
+   - Mengonsumsi Gas: ~73,300 gas.
+   - State berubah (Jumlah vote bertambah).
+
+   - Aplikasi memanggil fungsi "closeProposal" (Write).
+   - [Tx Hash: _(Salin dari notifikasi Toast Hijau di Web)_ ]
+   - Mengonsumsi Gas: ~25,552 gas.
+   - State berubah (Status proposal menjadi closed/tidak aktif).
+
+   - Aplikasi memanggil fungsi "deleteProposal" (Write).
+   - [Tx Hash: _(Salin dari notifikasi Toast Hijau di Web)_ ]
+   - Mengonsumsi Gas: ~44,700 gas.
+   - State berubah (Proposal dihapus dari storage).
+
+   - Aplikasi memanggil fungsi "getProposal" (Read).
+   - Biaya 0 gas (View function).
+   - Berhasil mereturn State/Data proposal secara realtime dari blockchain ke frontend.

@@ -1,0 +1,6 @@
+env/
+.env
+__pycache__/
+.streamlit/
+1.txt
+account.txt
