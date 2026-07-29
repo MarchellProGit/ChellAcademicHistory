@@ -1,7 +1,13 @@
 # 👁️ Computer Vision & Applications / CVA (Semester 7)
-> **Author**: Marchell Adi Pratama (672023081)
+> **Author**: Marchell Adi Pratama
 
-## 📌 Code Assets & Trained Models
-- **YOLO BISINDO Detection**: Indonesian Sign Language YOLOv8 trained weights (models/yolov8_bisindo_results), YOLOv11 weights (models/yolo11s.pt).
-- **Image Processing Algorithms**: Fast Fourier Transform filtering (FFT.ipynb), Image thresholding (Image_Processing_Beginner.ipynb), Training_Yolo_640.ipynb.
-- **Midterm Exam Notebooks**: TTS_CV_672023081.ipynb.
+## 📌 Self-Documenting Code Assets & Models
+- **Object Detection (YOLO BISINDO)**:
+  - Sign_Language_YOLO_Computer_Vision_Pipeline.ipynb: End-to-end Indonesian Sign Language gesture detection notebook.
+  - Training_Yolo_640.ipynb: YOLOv8/v11 model training configuration (640x640 resolution).
+  - Kaggle_YOLO_Dataset_Downloader.ipynb: Kaggle API dataset downloader and bounding box annotator.
+  - models/yolov8_bisindo_results/: Trained YOLOv8 model weights (est.pt, last.pt).
+- **Image Processing Routines**:
+  - FFT.ipynb: Fast Fourier Transform frequency domain image filtering.
+  - OpenCV_Image_Processing_Augmentation.ipynb: Morphological operations, edge detection, contrast adjustments.
+  - Image_Dataset_Extraction_Pipeline.ipynb: Automated image dataset preprocessing and normalization.

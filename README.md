@@ -1,8 +1,8 @@
 # 🎓 ChellAcademicHistory
 > **Centralized Computer Science & Software Engineering Academic Portfolio**  
-> *Maintained by Marchell Adi Pratama (NIM: 672023081)*
+> *Maintained by Marchell Adi Pratama*
 
-Welcome to **ChellAcademicHistory**, a version-controlled repository containing source code, algorithms, machine learning models, deep learning pipelines, smart contracts, computer vision systems, and full-stack web applications developed across my academic curriculum.
+Welcome to **ChellAcademicHistory**, a version-controlled repository containing pure source code, algorithms, machine learning pipelines, deep learning models, smart contracts, computer vision systems, and full-stack web applications developed across my academic curriculum.
 
 ---
 
@@ -11,12 +11,12 @@ Welcome to **ChellAcademicHistory**, a version-controlled repository containing 
 `	ext
 ChellAcademicHistory/
 ├── Semester-1/
-│   ├── Dasar-Dasar-Pemrograman/        # C Programming Fundamentals (GCC / C99)
+│   ├── Dasar-Dasar-Pemrograman/        # C Programming Fundamentals (Matrix Engine, Geometry, Arrays)
 │   └── Pengantar-Teknologi-Informasi/ # Responsive HTML5 / CSS3 / Bootstrap Web Architecture
 ├── Semester-2/
 │   └── Algoritma-dan-Struktur-Data/    # C++ Data Structures, Vectors, Maps & STL (C++11)
 ├── Semester-3/
-│   └── Interaksi-Manusia-dan-Komputer/ # UI/UX Design Systems & Web SuperApp Prototypes
+│   └── Interaksi-Manusia-dan-Komputer/ # UI/UX Design Systems & PayJek Web SuperApp Prototypes
 ├── Semester-4/
 │   ├── Kecerdasan-Buatan/              # AI Engines (GA TSP, EasyOCR, ID3 Decision Trees)
 │   ├── Pemrograman-Berorientasi-Objek/ # Java Swing GUI, JDBC & MVC Applications
@@ -100,7 +100,7 @@ pm run dev inside NexusDAO-Web3/app/.
 
 ## 📜 Author & Metadata
 
-* **Author**: Marchell Adi Pratama (NIM: 672023081)  
+* **Author**: Marchell Adi Pratama  
 * **Repository**: [MarchellProGit/ChellAcademicHistory](https://github.com/MarchellProGit/ChellAcademicHistory)  
 * **License**: Open Academic Source  
 * **Motto**: *SOLA DEI GLORIA* ✝️

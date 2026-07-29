@@ -1,7 +1,10 @@
 # 📊 Analisis Data Eksploratif / EDA (Semester 7)
-> **Author**: Marchell Adi Pratama (672023081)
+> **Author**: Marchell Adi Pratama
 
-## 📌 Code Assets
-- **Dimensionality Reduction**: Principal Component Analysis (PCA.ipynb).
-- **Exploratory Data Analysis & Visualizations**: IBM Data Visualization exercises (DV0101EN-Exercise...ipynb), da.ipynb, Test.ipynb.
-- **Term Project & Exam Code**: 672023081_TTS_EDA.ipynb.
+## 📌 Self-Documenting Code Assets
+- **Dimensionality Reduction**: PCA.ipynb - Principal Component Analysis and variance ratio profiling.
+- **Exploratory Data Analysis & Visualizations**:
+  - Exploratory_Data_Analysis_Features_Profile.ipynb: Feature distributions, correlation heatmaps, missing value imputation.
+  - DV0101EN-Exercise-Area-Plots-Histograms-and-Bar-Charts.ipynb: Area charts, histograms, and bar plots.
+  - DV0101EN-Exercise-Pie-Charts-Box-Plots-Scatter-Plots-and-Bubble-Plots.ipynb: Pie charts, box plots, scatter & bubble visualizations.
+  - Exploratory_Data_Analysis_Midterm.ipynb: Comprehensive EDA midterm exam solution notebook.

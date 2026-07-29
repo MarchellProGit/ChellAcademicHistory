@@ -1,7 +1,13 @@
 # 🤖 Machine Learning (Semester 6)
-> **Author**: Marchell Adi Pratama (672023081)
+> **Author**: Marchell Adi Pratama
 
-## 📌 Code Assets & Modules
-- **Clustering Pipelines**: K-Means Clustering (Clustering - KMEANS.ipynb), DBSCAN (Clustering - DBSCAN.ipynb), klustering.ipynb
-- **Classification & Regression**: Linear & Logistic Regression (latihan_regresi.ipynb), Supervised Classification (klasifikasi.ipynb)
-- **Exam Code Submissions**: Midterm Jupyter notebooks (	ts-_672023081_-4.ipynb, 	ts-_672023081_-5.ipynb)
+## 📌 Self-Documenting Code Assets & Pipelines
+- **Clustering Modules**:
+  - Clustering - KMEANS.ipynb: K-Means centroid clustering algorithm.
+  - Clustering - DBSCAN.ipynb: Density-based spatial clustering of applications with noise.
+  - klustering.ipynb: Comparative clustering evaluation.
+- **Classification & Regression Pipelines**:
+  - latihan_regresi.ipynb: Linear & Polynomial Regression implementations.
+  - klasifikasi.ipynb: Supervised decision trees & SVM classifiers.
+  - Classification_Logistic_Regression_Pipeline.ipynb: Logistic regression & binary classification workflow.
+  - Supervised_Learning_Model_Evaluation.ipynb: Model performance metrics, cross-validation & confusion matrix analysis.

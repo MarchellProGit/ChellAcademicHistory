@@ -1,6 +1,9 @@
 # ⚙️ Teknik Optimalisasi (Semester 7)
-> **Author**: Marchell Adi Pratama (672023081)
+> **Author**: Marchell Adi Pratama
 
-## 📌 Code Assets
-- **Particle Swarm Optimization (PSO)**: Network routing optimization algorithms (PSO untuk Optimasi Rute Jaringan.ipynb, 672023081_PSO.ipynb).
-- **Harmony Search Metaheuristic**: Optimization search implementation (Harmony Search.ipynb).
+## 📌 Self-Documenting Code Assets
+- **Particle Swarm Optimization (PSO)**:
+  - Particle_Swarm_Optimization_Network_Routing.ipynb: Multi-objective network delay and energy minimization using PSO.
+  - PSO untuk Optimasi Rute Jaringan.ipynb: Shortest route optimization in communication graphs.
+- **Harmony Search Algorithm**:
+  - Harmony Search.ipynb: Metaheuristic pitch adjustment and memory consideration search implementation.
