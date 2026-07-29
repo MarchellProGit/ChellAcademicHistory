@@ -76,30 +76,30 @@ flowchart TD
 
 ```text
 ChellAcademicHistory/
- assets/ # Profile Media & System Diagrams
- Semester-1/ # Trimesters 1 - 3: Systems & Web Foundations
- Dasar-Dasar-Pemrograman/ # C Programming (Matrix Engine, Geometry, Arrays)
- Pengantar-Teknologi-Informasi/ # Responsive Web Architecture Capstone
- Semester-2/ # Trimesters 4 - 6: Data Structures & Algorithms
- Algoritma-dan-Struktur-Data/ # C++ STL Data Structures (Vectors, Maps, Serialization)
- Semester-3/ # Trimesters 4 - 6: Human Computer Interaction
- Interaksi-Manusia-dan-Komputer/ # UI/UX Design System & PayJek Web SuperApp
- Semester-4/ # Trimesters 7 - 9: Core Software Engineering & Networks
- Kecerdasan-Buatan/ # AI Engines (Genetic Algo TSP, EasyOCR, ID3 Decision Trees)
- Pemrograman-Berorientasi-Objek/ # Java Swing GUI, JDBC & Inventory Management MVC
- Pemrograman-Web/ # Full-Stack PHP 8 / MySQL JobSeeker Web Portal
- Dasar-Pemrograman-Jaringan/ # Python Sockets, TCP/IP Listener & Network Serialization
- Semester-6/ # Trimesters 10 - 12: Machine Intelligence
- Machine-Learning/ # Clustering (K-Means, DBSCAN), Regression & Classification
- Semester-7/ # Trimesters 10 - 12: Advanced Data Analytics & Vision
- Analisis-Data-Eksploratif/ # EDA Pipelines, PCA & Visual Analytics
- Deep-Learning/ # PyTorch / TensorFlow CNNs, RNNs & LSTM Time Series
- Computer-Vision-and-Applications/# OpenCV, YOLOv8/v11 BISINDO Sign Detection & Image Processing
- Teknik-Optimalisasi/ # Particle Swarm Optimization (PSO) & Harmony Search
- Semester-9/ # Trimesters 10 - 12: Web3 Systems & Applied Data Science
- Blockchain/ # NexusDAO Solidity Smart Contracts, Foundry & React/Vite dApp
- Metodologi-Data-Science/ # End-to-End CRISP-DM Machine Learning (XGBoost, Streamlit, FastAPI)
- Pemrosesan-Bahasa-Alami/ # NLP Pipelines, Sastrawi, TF-IDF & Orange3 Workflows
+├── assets/                             # Profile Media & System Diagrams
+├── Semester-1/                         # Trimesters 1 - 3: Systems & Web Foundations
+│   ├── Dasar-Dasar-Pemrograman/        # C Programming (Matrix Engine, Geometry, Arrays)
+│   └── Pengantar-Teknologi-Informasi/ # Responsive Web Architecture Capstone
+├── Semester-2/                         # Trimesters 4 - 6: Data Structures & Algorithms
+│   └── Algoritma-dan-Struktur-Data/    # C++ STL Data Structures (Vectors, Maps, Serialization)
+├── Semester-3/                         # Trimesters 4 - 6: Human Computer Interaction
+│   └── Interaksi-Manusia-dan-Komputer/ # UI/UX Design System & PayJek Web SuperApp
+├── Semester-4/                         # Trimesters 7 - 9: Core Software Engineering & Networks
+│   ├── Dasar-Pemrograman-Jaringan/    # Python Sockets, TCP/IP Listener & Network Serialization
+│   ├── Kecerdasan-Buatan/              # AI Engines (Genetic Algo TSP, EasyOCR, ID3 Decision Trees)
+│   ├── Pemrograman-Berorientasi-Objek/ # Java Swing GUI, JDBC & Inventory Management MVC
+│   └── Pemrograman-Web/                # Full-Stack PHP 8 / MySQL JobSeeker Web Portal
+├── Semester-6/                         # Trimesters 10 - 12: Machine Intelligence
+│   └── Machine-Learning/               # Clustering (K-Means, DBSCAN), Regression & Classification
+├── Semester-7/                         # Trimesters 10 - 12: Advanced Data Analytics & Vision
+│   ├── Analisis-Data-Eksploratif/      # EDA Pipelines, PCA & Visual Analytics
+│   ├── Computer-Vision-and-Applications/# OpenCV, YOLOv8/v11 BISINDO Sign Detection & Image Processing
+│   ├── Deep-Learning/                  # PyTorch / TensorFlow CNNs, RNNs & LSTM Time Series
+│   └── Teknik-Optimalisasi/            # Particle Swarm Optimization (PSO) & Harmony Search
+└── Semester-9/                         # Trimesters 10 - 12: Web3 Systems & Applied Data Science
+    ├── Blockchain/                     # NexusDAO Solidity Smart Contracts, Foundry & React/Vite dApp
+    ├── Metodologi-Data-Science/        # End-to-End CRISP-DM Machine Learning (XGBoost, Streamlit, FastAPI)
+    └── Pemrosesan-Bahasa-Alami/        # NLP Pipelines, Sastrawi, TF-IDF & Orange3 Workflows
 ```
 
 ---
