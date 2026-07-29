@@ -1,13 +1,13 @@
-# ⛓️ Blockchain Technology (Semester 9)
+# Blockchain Technology (Semester 9)
 > **Author**: Marchell Adi Pratama & Nova
 
 ---
 
-## 📌 Domain Overview & Technical Specifications
+## Domain Overview & Technical Specifications
 
 A full-stack Web3 Decentralized Autonomous Organization (DAO) platform featuring Solidity smart contracts managed via Foundry and a responsive React + Vite + TailwindCSS dApp interface.
 
-### 📂 Pipeline Architecture
+### Pipeline Architecture
 
 ```text
 Semester-9/Blockchain/
@@ -30,7 +30,7 @@ Semester-9/Blockchain/
 
 ---
 
-## 🛠️ Build & Deployment Quickstart
+## Build & Deployment Quickstart
 
 ### 1. Smart Contract Compilation & Verification (Foundry)
 ```bash

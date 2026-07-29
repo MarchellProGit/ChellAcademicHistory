@@ -1,13 +1,13 @@
-# 🧠 Deep Learning (Semester 7)
+# Deep Learning (Semester 7)
 > **Author**: Marchell Adi Pratama
 
 ---
 
-## 📌 Domain Overview & Technical Specifications
+## Domain Overview & Technical Specifications
 
 This directory contains deep neural network architectures including Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), and Long Short-Term Memory (LSTM) time-series forecasting models implemented using `PyTorch`, `TensorFlow`, and `Keras`.
 
-### 📂 Pipeline Architecture
+### Pipeline Architecture
 
 ```text
 Semester-7/Deep-Learning/
@@ -26,7 +26,7 @@ Semester-7/Deep-Learning/
 
 ---
 
-## 📊 Deep Learning Models & Datasets
+## Deep Learning Models & Datasets
 
 | Model / Notebook | Architecture Type | Input Features / Dataset | Accuracy / Loss Metric |
 | :--- | :--- | :--- | :--- |
@@ -37,7 +37,7 @@ Semester-7/Deep-Learning/
 
 ---
 
-## 🛠️ Execution Quickstart
+## Execution Quickstart
 
 ```bash
 jupyter notebook Semester-7/Deep-Learning/notebooks/

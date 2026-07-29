@@ -1,13 +1,13 @@
-# 📊 Analisis Data Eksploratif / EDA (Semester 7)
+# Analisis Data Eksploratif / EDA (Semester 7)
 > **Author**: Marchell Adi Pratama
 
 ---
 
-## 📌 Domain Overview & Technical Specifications
+## Domain Overview & Technical Specifications
 
 This course archive contains end-to-end Exploratory Data Analysis (EDA) pipelines, feature engineering notebooks, dimensionality reduction routines, and statistical visualizations built with `pandas`, `seaborn`, `matplotlib`, and `scikit-learn`.
 
-### 📂 Pipeline Architecture
+### Pipeline Architecture
 
 ```text
 Semester-7/Analisis-Data-Eksploratif/
@@ -21,7 +21,7 @@ Semester-7/Analisis-Data-Eksploratif/
 
 ---
 
-## 📊 Modules Breakdown
+## Modules Breakdown
 
 | Module Notebook | Analytics Focus | Key Library / Technique | Output Artifact |
 | :--- | :--- | :--- | :--- |
@@ -31,7 +31,7 @@ Semester-7/Analisis-Data-Eksploratif/
 
 ---
 
-## 🛠️ Execution Quickstart
+## Execution Quickstart
 
 ```bash
 jupyter notebook Semester-7/Analisis-Data-Eksploratif/notebooks/

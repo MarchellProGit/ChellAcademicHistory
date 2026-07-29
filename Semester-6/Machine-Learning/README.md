@@ -1,13 +1,13 @@
-# 🤖 Machine Learning (Semester 6)
+# Machine Learning (Semester 6)
 > **Author**: Marchell Adi Pratama
 
 ---
 
-## 📌 Domain Overview & Technical Specifications
+## Domain Overview & Technical Specifications
 
 This directory houses supervised and unsupervised machine learning algorithms, model evaluation suites, and clustering pipelines developed using Python, `scikit-learn`, `pandas`, `numpy`, and `matplotlib`.
 
-### 📂 Pipeline Architecture
+### Pipeline Architecture
 
 ```text
 Semester-6/Machine-Learning/
@@ -23,7 +23,7 @@ Semester-6/Machine-Learning/
 
 ---
 
-## 📊 Modules Breakdown
+## Modules Breakdown
 
 | Module / Notebook | Primary Techniques | Input Dataset | Output / Evaluation Metrics |
 | :--- | :--- | :--- | :--- |
@@ -34,9 +34,8 @@ Semester-6/Machine-Learning/
 
 ---
 
-## 🛠️ Execution Quickstart
+## Execution Quickstart
 
 ```bash
-# Launch Jupyter environment
 jupyter notebook Semester-6/Machine-Learning/notebooks/
 ```

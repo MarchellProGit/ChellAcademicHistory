@@ -1,13 +1,13 @@
-# 📝 Pemrosesan Bahasa Alami / NLP (Semester 9)
+# Pemrosesan Bahasa Alami / NLP (Semester 9)
 > **Author**: Marchell Adi Pratama
 
 ---
 
-## 📌 Domain Overview & Technical Specifications
+## Domain Overview & Technical Specifications
 
 This directory contains Natural Language Processing (NLP) text processing pipelines, Indonesian Sastrawi stemming routines, TF-IDF feature matrices, and visual text mining workflows in Orange3.
 
-### 📂 Pipeline Architecture
+### Pipeline Architecture
 
 ```text
 Semester-9/Pemrosesan-Bahasa-Alami/
@@ -25,7 +25,7 @@ Semester-9/Pemrosesan-Bahasa-Alami/
 
 ---
 
-## 🛠️ Execution Quickstart
+## Execution Quickstart
 
 ```bash
 jupyter notebook Semester-9/Pemrosesan-Bahasa-Alami/notebooks/

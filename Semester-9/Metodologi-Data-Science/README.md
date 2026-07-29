@@ -1,13 +1,13 @@
-# 🔬 Metodologi Data Science (Semester 9)
+# Metodologi Data Science (Semester 9)
 > **Author**: Marchell Adi Pratama
 
 ---
 
-## 📌 Domain Overview & Technical Specifications
+## Domain Overview & Technical Specifications
 
 An end-to-end CRISP-DM (Cross-Industry Standard Process for Data Science) predictive system featuring an XGBoost classifier, Streamlit web interactive dashboard, and FastAPI backend service.
 
-### 📂 Pipeline Architecture
+### Pipeline Architecture
 
 ```text
 Semester-9/Metodologi-Data-Science/
@@ -25,7 +25,7 @@ Semester-9/Metodologi-Data-Science/
 
 ---
 
-## 🛠️ Execution Quickstart
+## Execution Quickstart
 
 ```bash
 cd Semester-9/Metodologi-Data-Science/anak-data-nih-bosh

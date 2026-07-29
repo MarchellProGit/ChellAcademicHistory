@@ -1,13 +1,13 @@
-# 👁️ Computer Vision & Applications / CVA (Semester 7)
+# Computer Vision & Applications / CVA (Semester 7)
 > **Author**: Marchell Adi Pratama
 
 ---
 
-## 📌 Domain Overview & Technical Specifications
+## Domain Overview & Technical Specifications
 
 This module houses real-time computer vision pipelines, image processing routines, frequency domain filtering, and object detection systems targeting Indonesian Sign Language (BISINDO) utilizing `OpenCV`, `YOLOv8/v11`, and `PyTorch`.
 
-### 📂 Pipeline Architecture
+### Pipeline Architecture
 
 ```text
 Semester-7/Computer-Vision-and-Applications/
@@ -28,7 +28,7 @@ Semester-7/Computer-Vision-and-Applications/
 
 ---
 
-## 📊 Model Performance & Computer Vision Modules
+## Model Performance & Computer Vision Modules
 
 | Module / Weight | Algorithm / Model | Task / Purpose | Performance Metrics |
 | :--- | :--- | :--- | :--- |
@@ -38,7 +38,7 @@ Semester-7/Computer-Vision-and-Applications/
 
 ---
 
-## 🛠️ Execution Quickstart
+## Execution Quickstart
 
 ```bash
 jupyter notebook Semester-7/Computer-Vision-and-Applications/notebooks/

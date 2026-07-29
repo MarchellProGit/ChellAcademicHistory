@@ -1,13 +1,13 @@
-# ⚙️ Teknik Optimalisasi (Semester 7)
+# Teknik Optimalisasi (Semester 7)
 > **Author**: Marchell Adi Pratama
 
 ---
 
-## 📌 Domain Overview & Technical Specifications
+## Domain Overview & Technical Specifications
 
 This directory contains metaheuristic optimization algorithms including Particle Swarm Optimization (PSO) and Harmony Search (HS) applied to multi-objective network routing and parameter tuning.
 
-### 📂 Pipeline Architecture
+### Pipeline Architecture
 
 ```text
 Semester-7/Teknik-Optimalisasi/
@@ -19,7 +19,7 @@ Semester-7/Teknik-Optimalisasi/
 
 ---
 
-## 📊 Metaheuristic Optimization Specifications
+## Metaheuristic Optimization Specifications
 
 | Algorithm Notebook | Objective Function | Swarm / Harmony Parameters | Convergence Target |
 | :--- | :--- | :--- | :--- |
@@ -28,7 +28,7 @@ Semester-7/Teknik-Optimalisasi/
 
 ---
 
-## 🛠️ Execution Quickstart
+## Execution Quickstart
 
 ```bash
 jupyter notebook Semester-7/Teknik-Optimalisasi/notebooks/
