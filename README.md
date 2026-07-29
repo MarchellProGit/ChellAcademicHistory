@@ -198,7 +198,7 @@ npm run dev
 
 ## 📜 Author & License
 
-* **Author**: Marchell Adi Pratama  
+* **Author**: Marchell Adi Pratama ([Read Professional Profile](./ABOUT.md))  
 * **Institution**: Faculty of Information Technology, Universitas Kristen Satya Wacana (UKSW)  
 * **GitHub**: [@MarchellProGit](https://github.com/MarchellProGit)  
 * **License**: Open Academic Source (MIT License)  
