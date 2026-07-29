@@ -179,6 +179,16 @@ npm run dev
 
 ---
 
+---
+
+## Theological Purpose & Calling
+
+> *"There is not a square inch in the whole domain of our human existence over which Christ, who is Sovereign over all, does not cry: 'Mine!'"* — **Abraham Kuyper**
+
+All codebases, algorithms, neural network models, smart contracts, and software architectures in this repository are engineered not for personal ostentation, self-glory, or worldly prestige, but solely for the honor, praise, and glory of God (*Sola Dei Gloria*), utilizing the gifts of intellect, reason, and creative stewardship granted through Divine Grace.
+
+---
+
 ## Author & License
 
 * **Author**: Marchell Adi Pratama ([Read Professional Profile](./ABOUT.md)) 
