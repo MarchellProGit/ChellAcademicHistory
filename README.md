@@ -1,32 +1,37 @@
 # ChellAcademicHistory
-> **Centralized Computer Science & Data Engineering Portfolio**  
+> **Centralized Data Science & Computer Science Academic Portfolio**  
 > **Author**: Marchell Adi Pratama ([Read Professional Profile](./ABOUT.md))  
-> **Specialization**: Data Track (Data Science, Intelligent Systems & Full-Spectrum Computing)  
-> **Curriculum**: 12 Trimesters (3 Semesters per Academic Year)
-
-[![Language: Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
-[![Language: C++](https://img.shields.io/badge/C%2B%2B-11%2F17-00599C?style=flat-square&logo=cplusplus&logoColor=white)](https://isocpp.org)
-[![Language: C](https://img.shields.io/badge/C-C99-A8B9CC?style=flat-square&logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C_(programming_language))
-[![Language: Java](https://img.shields.io/badge/Java-17%2B-ED8B00?style=flat-square&logo=openjdk&logoColor=white)](https://oracle.com/java)
-[![Language: Solidity](https://img.shields.io/badge/Solidity-0.8.20-363636?style=flat-square&logo=solidity&logoColor=white)](https://soliditylang.org)
-[![Framework: PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)](https://pytorch.org)
-[![Framework: TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)](https://tensorflow.org)
-[![Framework: Foundry](https://img.shields.io/badge/Foundry-v0.2.0-F86527?style=flat-square&logo=ethereum&logoColor=white)](https://book.getfoundry.sh)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+> **Degree Specialization**: Data Science (Bachelor of Computer Science in Data Science)  
+> **Academic Structure**: 12 Trimesters (3 Semesters per Academic Year)
 
 <p align="center">
   <img src="./assets/marchell_adi_pratama.jpg" alt="Marchell Adi Pratama Profile" width="140" style="border-radius: 50%;" /><br>
   <b>Marchell Adi Pratama</b><br>
-  <i>Data Track Specialization | Computer Science & Software Engineering</i>
+  <i>Data Science Major | Full-Spectrum Computing & Intelligent Systems</i>
+</p>
+
+<p align="center">
+  <a href="https://python.org"><img src="https://img.shields.io/badge/Language-Python_3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /></a>
+  <a href="https://isocpp.org"><img src="https://img.shields.io/badge/Language-C%2B%2B_11%2F17-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" /></a>
+  <a href="https://en.wikipedia.org/wiki/C_(programming_language)"><img src="https://img.shields.io/badge/Language-C_C99-A8B9CC?style=flat-square&logo=c&logoColor=white" alt="C" /></a>
+  <a href="https://oracle.com/java"><img src="https://img.shields.io/badge/Language-Java_17%2B-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" /></a>
+  <a href="https://soliditylang.org"><img src="https://img.shields.io/badge/Language-Solidity_0.8.20-363636?style=flat-square&logo=solidity&logoColor=white" alt="Solidity" /></a>
+  <br>
+  <a href="https://pytorch.org"><img src="https://img.shields.io/badge/Framework-PyTorch_2.0%2B-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" /></a>
+  <a href="https://tensorflow.org"><img src="https://img.shields.io/badge/Framework-TensorFlow_2.x-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow" /></a>
+  <a href="https://book.getfoundry.sh"><img src="https://img.shields.io/badge/Framework-Foundry_v0.2.0-F86527?style=flat-square&logo=ethereum&logoColor=white" alt="Foundry" /></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License" /></a>
 </p>
 
 ---
 
 ## Executive Summary
 
-**ChellAcademicHistory** is a production-grade, version-controlled repository containing pure source code, algorithms, machine learning pipelines, deep learning models, smart contracts, computer vision systems, and full-stack web applications developed across a **12-trimester academic degree** (3 semesters per year across 4 academic years).
+**ChellAcademicHistory** is a production-grade, version-controlled repository containing pure source code, algorithms, machine learning pipelines, deep learning models, smart contracts, computer vision systems, and full-stack web applications developed across a **12-trimester Data Science degree program** (3 semesters per academic year across 4 years).
 
-While specialized in the **Data Track** (Data Science, Machine Learning, Computer Vision, Deep Learning, and Predictive Analytics), this repository showcases multi-disciplinary engineering breadth spanning low-level C/C++ systems, Java desktop MVC software, PHP/MySQL web architecture, Python multithreaded networking, and Solidity Web3 smart contracts.
+While my primary major and specialization is **Data Science** (encompassing Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, and Predictive Analytics), my coursework spans full-spectrum computer science discipline—including C/C++ low-level systems, Java desktop MVC applications, PHP/MySQL web architecture, Python multithreaded networking, and Solidity Web3 smart contracts.
+
+> **Note on Curriculum & Trimester Archival**: The 12-trimester degree structure operates on a trimester cadence. Certain trimesters focus strictly on theoretical mathematics, linear algebra, calculus, probability, humanities, or general university requirements without lab-based programming. Consequently, source code archives are provided specifically for trimesters containing programming, machine learning, systems engineering, and software capstone projects.
 
 ---
 
@@ -51,7 +56,7 @@ flowchart TD
         DPJ["Dasar Pemrograman Jaringan (Python Sockets/TCP)"]
     end
 
-    subgraph Year4["Academic Year 4 (Trimesters 10 - 12: Advanced Data Track)"]
+    subgraph Year4["Academic Year 4 (Trimesters 10 - 12: Data Science Specialization)"]
         ML["Machine Learning (K-Means, DBSCAN, Regression)"]
         EDA["Analisis Data Eksploratif (PCA, Seaborn)"]
         DL["Deep Learning (PyTorch/TensorFlow CNNs & RNNs)"]
@@ -72,26 +77,26 @@ flowchart TD
 ```text
 ChellAcademicHistory/
 ├── assets/                             # Profile Media & System Diagrams
-├── Semester-1/
+├── Semester-1/                         # Trimesters 1 - 3: Systems & Web Foundations
 │   ├── Dasar-Dasar-Pemrograman/        # C Programming (Matrix Engine, Geometry, Arrays)
 │   └── Pengantar-Teknologi-Informasi/ # Responsive Web Architecture Capstone
-├── Semester-2/
+├── Semester-2/                         # Trimesters 4 - 6: Data Structures & Algorithms
 │   └── Algoritma-dan-Struktur-Data/    # C++ STL Data Structures (Vectors, Maps, Serialization)
-├── Semester-3/
+├── Semester-3/                         # Trimesters 4 - 6: Human Computer Interaction
 │   └── Interaksi-Manusia-dan-Komputer/ # UI/UX Design System & PayJek Web SuperApp
-├── Semester-4/
+├── Semester-4/                         # Trimesters 7 - 9: Core Software Engineering & Networks
 │   ├── Kecerdasan-Buatan/              # AI Engines (Genetic Algo TSP, EasyOCR, ID3 Decision Trees)
 │   ├── Pemrograman-Berorientasi-Objek/ # Java Swing GUI, JDBC & Inventory Management MVC
 │   ├── Pemrograman-Web/                # Full-Stack PHP 8 / MySQL JobSeeker Web Portal
 │   └── Dasar-Pemrograman-Jaringan/    # Python Sockets, TCP/IP Listener & Network Serialization
-├── Semester-6/
+├── Semester-6/                         # Trimesters 10 - 12: Data Science & Machine Intelligence
 │   └── Machine-Learning/               # Clustering (K-Means, DBSCAN), Regression & Classification
-├── Semester-7/
+├── Semester-7/                         # Trimesters 10 - 12: Advanced Data Analytics & Vision
 │   ├── Analisis-Data-Eksploratif/      # EDA Pipelines, PCA & Visual Analytics
 │   ├── Deep-Learning/                  # PyTorch / TensorFlow CNNs, RNNs & LSTM Time Series
 │   ├── Computer-Vision-and-Applications/# OpenCV, YOLOv8/v11 BISINDO Sign Detection & Image Processing
 │   └── Teknik-Optimalisasi/            # Particle Swarm Optimization (PSO) & Harmony Search
-└── Semester-9/
+└── Semester-9/                         # Trimesters 10 - 12: Web3 Systems & Applied Data Science
     ├── Blockchain/                     # NexusDAO Solidity Smart Contracts, Foundry & React/Vite dApp
     ├── Metodologi-Data-Science/        # End-to-End CRISP-DM Machine Learning (XGBoost, Streamlit, FastAPI)
     └── Pemrosesan-Bahasa-Alami/        # NLP Pipelines, Sastrawi, TF-IDF & Orange3 Workflows
@@ -109,7 +114,7 @@ ChellAcademicHistory/
 | **Algoritma & Struktur Data (ASD)** | C++ (`STL`, `C++11`) | Vectors, Maps, Binary File Serialization, Academic Information System (SIA) Engine | [`./Semester-2/Algoritma-dan-Struktur-Data/`](./Semester-2/Algoritma-dan-Struktur-Data/) |
 | **Interaksi Manusia & Komputer (IMK)** | HTML5, CSS3, JavaScript | PayJek On-Demand SuperApp & Food Delivery Responsive UI Prototype | [`./Semester-3/Interaksi-Manusia-dan-Komputer/`](./Semester-3/Interaksi-Manusia-dan-Komputer/) |
 
-### 2. Software Engineering & Networking (Trimesters 4 - 6)
+### 2. Software Engineering & Networking (Trimesters 4 - 9)
 | Module Title | Primary Tech Stack | Architectural Implementations | Directory Link |
 | :--- | :--- | :--- | :--- |
 | **Kecerdasan Buatan (AI)** | Python (`EasyOCR`, `GA`) | Genetic Algorithm TSP Solver, EasyOCR & ID3 Decision Trees | [`./Semester-4/Kecerdasan-Buatan/`](./Semester-4/Kecerdasan-Buatan/) |
@@ -117,7 +122,7 @@ ChellAcademicHistory/
 | **Pemrograman Web (PW)** | PHP (`PHP 8`), MySQL | Full-Stack JobSeeker Web Portal, Admin/User Auth Sessions | [`./Semester-4/Pemrograman-Web/`](./Semester-4/Pemrograman-Web/) |
 | **Dasar Pemrograman Jaringan (DPJ)** | Python (`Sockets`, `TCP/IP`) | Multithreaded TCP Socket Server Engine & JSON Network Packet Serialization | [`./Semester-4/Dasar-Pemrograman-Jaringan/`](./Semester-4/Dasar-Pemrograman-Jaringan/) |
 
-### 3. Advanced Data Track & Web3 Systems (Trimesters 7 - 12)
+### 3. Advanced Data Science Specialization (Trimesters 10 - 12)
 | Module Title | Primary Tech Stack | Architectural Implementations | Directory Link |
 | :--- | :--- | :--- | :--- |
 | **Machine Learning (ML)** | Python (`scikit-learn`, `pandas`) | K-Means Centroids, Density DBSCAN, Logistic/Linear Regression | [`./Semester-6/Machine-Learning/`](./Semester-6/Machine-Learning/) |
@@ -177,7 +182,7 @@ npm run dev
 ## Author & License
 
 * **Author**: Marchell Adi Pratama ([Read Professional Profile](./ABOUT.md))  
-* **Faculty**: Faculty of Information Technology, Universitas Kristen Satya Wacana (UKSW)  
+* **Program**: Program Studi Data Science, Fakultas Teknologi Informasi, Universitas Kristen Satya Wacana (UKSW)  
 * **GitHub**: [@MarchellProGit](https://github.com/MarchellProGit)  
 * **License**: Open Academic Source (MIT License)  
 * **Motto**: *SOLA DEI GLORIA*

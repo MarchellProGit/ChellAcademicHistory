@@ -1,6 +1,14 @@
-# 🎓 Semester 6 Source Code
+# Semester 6 Coursework (Trimesters 10 - 12)
+> **Data Science Degree Program** | Author: Marchell Adi Pratama
 
-## 📌 Courses Overview
-| Course | Core Tech Stack | Source Code Directory |
+---
+
+## Overview
+
+This directory contains machine learning clustering algorithms, regression models, classification pipelines, and model evaluation suites.
+
+## Course Modules
+
+| Course Module | Primary Tech Stack | Code Asset Directory |
 | :--- | :--- | :--- |
-| **Machine Learning** | Python, scikit-learn, pandas, matplotlib | [./Machine-Learning](./Machine-Learning/) |
+| **Machine Learning (ML)** | Python (`scikit-learn`, `pandas`, `numpy`) | [`./Machine-Learning`](./Machine-Learning/) |

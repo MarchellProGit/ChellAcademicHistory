@@ -1,7 +1,7 @@
 # Marchell Adi Pratama
-> **Computer Science & Data Engineering Portfolio**  
-> **Specialization**: Data Track (Data Science, Machine Learning & Intelligent Systems)  
-> **Curriculum Structure**: 12 Trimesters (3 Semesters per Academic Year)  
+> **Data Science & Computer Science Academic Portfolio**  
+> **Degree Program / Major**: Program Studi Data Science (Bachelor of Computer Science in Data Science)  
+> **Academic Structure**: 12 Trimesters (3 Semesters per Academic Year)  
 > **Faculty**: Faculty of Information Technology, Universitas Kristen Satya Wacana (UKSW)  
 > **Student ID (NIM)**: `672023081` | **GitHub**: [@MarchellProGit](https://github.com/MarchellProGit)
 
@@ -9,19 +9,34 @@
   <img src="./assets/marchell_adi_pratama.jpg" alt="Marchell Adi Pratama" width="180" style="border-radius: 50%; box-shadow: 0px 4px 10px rgba(0,0,0,0.15);" />
 </p>
 
+<p align="center">
+  <a href="https://python.org"><img src="https://img.shields.io/badge/Language-Python_3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /></a>
+  <a href="https://isocpp.org"><img src="https://img.shields.io/badge/Language-C%2B%2B_11%2F17-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" /></a>
+  <a href="https://en.wikipedia.org/wiki/C_(programming_language)"><img src="https://img.shields.io/badge/Language-C_C99-A8B9CC?style=flat-square&logo=c&logoColor=white" alt="C" /></a>
+  <a href="https://oracle.com/java"><img src="https://img.shields.io/badge/Language-Java_17%2B-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" /></a>
+  <a href="https://soliditylang.org"><img src="https://img.shields.io/badge/Language-Solidity_0.8.20-363636?style=flat-square&logo=solidity&logoColor=white" alt="Solidity" /></a>
+  <br>
+  <a href="https://pytorch.org"><img src="https://img.shields.io/badge/Framework-PyTorch_2.0%2B-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" /></a>
+  <a href="https://tensorflow.org"><img src="https://img.shields.io/badge/Framework-TensorFlow_2.x-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow" /></a>
+  <a href="https://book.getfoundry.sh"><img src="https://img.shields.io/badge/Framework-Foundry_v0.2.0-F86527?style=flat-square&logo=ethereum&logoColor=white" alt="Foundry" /></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License" /></a>
+</p>
+
 ---
 
 ## Executive Summary
 
-I am a Computer Science & Data Engineering student specializing in the **Data Track**, possessing cross-disciplinary technical mastery across **Data Science, Machine Learning, Deep Learning, Computer Vision, Software Engineering, Network Systems**, and **Web3 Blockchain Engineering**.
+I am a **Data Science undergraduate student** with comprehensive, full-spectrum engineering capabilities spanning **Data Science, Machine Learning, Deep Learning, Computer Vision, Software Engineering, Network Systems**, and **Web3 Blockchain Engineering**.
 
-Operating within a 12-trimester academic system (3 semesters per academic year across a 4-year degree), my academic portfolio reflects both rigorous theoretical foundations and production-grade practical engineering across multiple technology verticals.
+Operating within a 12-trimester academic system (3 semesters per academic year across a 4-year degree), my academic portfolio reflects both rigorous theoretical foundations in statistical intelligence and production-grade practical engineering across multiple technology verticals.
+
+> **Note on Trimester & Semester Coverage**: The Data Science degree curriculum spans 12 trimesters. Certain trimesters focus on theoretical mathematics, linear algebra, calculus, statistics, humanities, or general university requirements without lab-based programming. Consequently, source code archives are provided specifically for trimesters containing hands-on programming, machine learning, systems engineering, and capstone software projects.
 
 ---
 
 ## Technical Competency Matrix
 
-### 1. Data Science & Artificial Intelligence (Primary Focus)
+### 1. Data Science & Artificial Intelligence (Major Specialization)
 * **Machine Learning**: Centroid K-Means, Density-Based DBSCAN, XGBoost Gradient Boosting, Random Forest Classifiers, Support Vector Machines (SVM), Logistic & Polynomial Regression, Naive Bayes.
 * **Deep Learning & Neural Networks**: Convolutional Neural Networks (Conv2D/MaxPool2D), Recurrent Neural Networks (SimpleRNN), Stacked Long Short-Term Memory (LSTM) Networks, Fine-tuned Transfer Learning (MobileNetV2, ResNet50).
 * **Computer Vision**: OpenCV Spatial Morphologies, YOLOv8 & YOLOv11 Real-Time Object Detection, Indonesian Sign Language (BISINDO) Gesture Recognition, 2D Fast Fourier Transform (FFT) Frequency Filtering.
@@ -46,24 +61,17 @@ Operating within a 12-trimester academic system (3 semesters per academic year a
 
 | Academic Year | Trimester Period | Focus & Domain Coverage | Key Course Modules |
 | :--- | :--- | :--- | :--- |
-| **Year 1** | Trimester 1 - 3 | Low-Level Systems, C Programming & Web Foundations | Dasar-Dasar Pemrograman (DDP), Pengantar Teknologi Informasi (PTI) |
-| **Year 2** | Trimester 4 - 6 | Data Structures, Algorithms & User Experience | Algoritma & Struktur Data (ASD), Interaksi Manusia & Komputer (IMK) |
-| **Year 3** | Trimester 7 - 9 | Software Engineering, Java OOP, Full-Stack PHP & Networks | Kecerdasan Buatan (AI), Pemrograman Berorientasi Objek (PBO), Pemrograman Web (PW), Dasar Pemrograman Jaringan (DPJ) |
-| **Year 4** | Trimester 10 - 12 | Advanced Data Track: ML, Deep Learning, Vision, Web3 & CRISP-DM | Machine Learning (ML), Analisis Data Eksploratif (EDA), Deep Learning (DL), Computer Vision (CVA), Teknik Optimalisasi (TO), Blockchain, Metodologi Data Science (MDS), NLP |
-
----
-
-## Architectural & Codebase Standards
-
-1. **Zero Junk Invariant**: Pure repository architecture free of temporary build artifacts, compiled object binaries (`.exe`, `.o`), virtual environments (`venv/`), raw document dumps (`.pdf`, `.docx`), and redundant files.
-2. **Self-Documenting Standard**: All source files, modules, classes, and Jupyter Notebooks strictly follow self-documenting naming conventions based on domain responsibility.
-3. **Strict Reproducibility**: Complete environment manifests provided (`requirements.txt`, `package.json`, `foundry.toml`).
+| **Year 1** | Trimesters 1 - 3 | Low-Level Systems, C Programming & Web Foundations | Dasar-Dasar Pemrograman (DDP), Pengantar Teknologi Informasi (PTI) |
+| **Year 2** | Trimesters 4 - 6 | Data Structures, Algorithms & User Experience | Algoritma & Struktur Data (ASD), Interaksi Manusia & Komputer (IMK) |
+| **Year 3** | Trimesters 7 - 9 | Software Engineering, Java OOP, Full-Stack PHP & Networks | Kecerdasan Buatan (AI), Pemrograman Berorientasi Objek (PBO), Pemrograman Web (PW), Dasar Pemrograman Jaringan (DPJ) |
+| **Year 4** | Trimesters 10 - 12 | Advanced Data Science Track: ML, Deep Learning, Vision, Web3 & CRISP-DM | Machine Learning (ML), Analisis Data Eksploratif (EDA), Deep Learning (DL), Computer Vision (CVA), Teknik Optimalisasi (TO), Blockchain, Metodologi Data Science (MDS), NLP |
 
 ---
 
 ## Verification & Author Metadata
 
 * **Author**: Marchell Adi Pratama  
+* **Degree Program**: Program Studi Data Science, Fakultas Teknologi Informasi, Universitas Kristen Satya Wacana (UKSW)  
 * **Student ID**: `672023081`  
 * **GitHub Profile**: [MarchellProGit](https://github.com/MarchellProGit)  
 * **Motto**: *SOLA DEI GLORIA*
