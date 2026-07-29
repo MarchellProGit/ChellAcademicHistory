@@ -179,13 +179,11 @@ npm run dev
 
 ---
 
----
-
 ## Theological Purpose & Calling
 
 > *"There is not a square inch in the whole domain of our human existence over which Christ, who is Sovereign over all, does not cry: 'Mine!'"* — **Abraham Kuyper**  
 >  
-> *"Engineering, data science, and technology are tools of creative stewardship—translating formal domain guidelines and complex transactional logic into declarative, enterprise-ready pipelines."* — **Marchell Adi Pratama**
+> *"Human work, scientific inquiry, and technological craftsmanship are not autonomous monuments of self-glory, but the exercise of divine stewardship—ordering the raw potential of Creation to reflect the wisdom, beauty, and sovereignty of the Creator."* — **Marchell Adi Pratama**
 
 All codebases, algorithms, neural network models, smart contracts, and software architectures in this repository are engineered not for personal ostentation, self-glory, or worldly prestige, but to serve with excellence and glorify God (*Sola Dei Gloria*), utilizing the gifts of intellect, reason, and creative stewardship granted through Divine Grace.
 
