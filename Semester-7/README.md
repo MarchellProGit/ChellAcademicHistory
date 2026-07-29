@@ -1,8 +1,7 @@
 # 🎓 Semester 7 Source Code
 
 ## 📌 Courses Overview
-
-| Course | Primary Technologies | Source Code Directory |
+| Course | Core Tech Stack | Source Code Directory |
 | :--- | :--- | :--- |
 | **Analisis Data Eksploratif (EDA)** | Python, pandas, seaborn, scikit-learn | [./Analisis-Data-Eksploratif](./Analisis-Data-Eksploratif/) |
 | **Deep Learning** | Python, PyTorch, TensorFlow, Keras | [./Deep-Learning](./Deep-Learning/) |
