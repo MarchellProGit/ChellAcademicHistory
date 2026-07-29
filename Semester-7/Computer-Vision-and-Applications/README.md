@@ -11,19 +11,19 @@ This module houses real-time computer vision pipelines, image processing routine
 
 ```text
 Semester-7/Computer-Vision-and-Applications/
-├── models/
-│   ├── yolo11s.pt                                       # Pre-trained YOLOv11 Small Weights
-│   └── yolov8_bisindo_results/
-│       └── detect/bisindo_yolov8_model/weights/
-│           ├── best.pt                                  # Top Performing BISINDO Gesture Weights
-│           └── last.pt                                  # Final Epoch Checkpoint
-└── notebooks/
-    ├── Sign_Language_YOLO_Computer_Vision_Pipeline.ipynb# Real-time BISINDO Detection Pipeline
-    ├── Training_Yolo_640.ipynb                          # YOLO Training Routine (640x640 Resolution)
-    ├── FFT.ipynb                                        # Fast Fourier Transform Frequency Filtering
-    ├── OpenCV_Image_Processing_Augmentation.ipynb       # Spatial Morphologies & Contrast Enhancement
-    ├── Image_Dataset_Extraction_Pipeline.ipynb          # Automated Dataset Normalization
-    └── Kaggle_YOLO_Dataset_Downloader.ipynb             # Bounding Box Annotator & Downloader
+ models/
+ yolo11s.pt # Pre-trained YOLOv11 Small Weights
+ yolov8_bisindo_results/
+ detect/bisindo_yolov8_model/weights/
+ best.pt # Top Performing BISINDO Gesture Weights
+ last.pt # Final Epoch Checkpoint
+ notebooks/
+ Sign_Language_YOLO_Computer_Vision_Pipeline.ipynb# Real-time BISINDO Detection Pipeline
+ Training_Yolo_640.ipynb # YOLO Training Routine (640x640 Resolution)
+ FFT.ipynb # Fast Fourier Transform Frequency Filtering
+ OpenCV_Image_Processing_Augmentation.ipynb # Spatial Morphologies & Contrast Enhancement
+ Image_Dataset_Extraction_Pipeline.ipynb # Automated Dataset Normalization
+ Kaggle_YOLO_Dataset_Downloader.ipynb # Bounding Box Annotator & Downloader
 ```
 
 ---

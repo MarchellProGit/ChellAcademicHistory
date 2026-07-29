@@ -11,17 +11,17 @@ This directory contains deep neural network architectures including Convolutiona
 
 ```text
 Semester-7/Deep-Learning/
-├── data/
-│   ├── dataset_lengkap_lstm.csv                         # Multi-variate Time Series LSTM Dataset
-│   ├── data_kurs_2020_2025.csv                          # Currency Exchange Rate Historical Data
-│   ├── data_libur_indonesia.csv                         # National Holiday Calendar Features
-│   └── POWER_Point_Daily.csv                            # Daily Power Output Metrics
-└── notebooks/
-    ├── MNIST_Convolutional_Neural_Network.ipynb         # 2D ConvNet Image Classifier (Conv2D + MaxPool2D)
-    ├── Train_CNN.ipynb                                  # Custom CNN Model Training & Hyperparameter Tuning
-    ├── Simple_RNN_Weather_Temperature_Forecasting.ipynb # Sequence-to-Sequence Temperature RNN
-    ├── LSTM_Model_Evaluation.ipynb                     # Multi-layer LSTM Financial Time-Series Model
-    └── Scratch_vs_Transfer_Learning.ipynb               # Benchmark: Custom CNN vs MobileNetV2 / ResNet50
+ data/
+ dataset_lengkap_lstm.csv # Multi-variate Time Series LSTM Dataset
+ data_kurs_2020_2025.csv # Currency Exchange Rate Historical Data
+ data_libur_indonesia.csv # National Holiday Calendar Features
+ POWER_Point_Daily.csv # Daily Power Output Metrics
+ notebooks/
+ MNIST_Convolutional_Neural_Network.ipynb # 2D ConvNet Image Classifier (Conv2D + MaxPool2D)
+ Train_CNN.ipynb # Custom CNN Model Training & Hyperparameter Tuning
+ Simple_RNN_Weather_Temperature_Forecasting.ipynb # Sequence-to-Sequence Temperature RNN
+ LSTM_Model_Evaluation.ipynb # Multi-layer LSTM Financial Time-Series Model
+ Scratch_vs_Transfer_Learning.ipynb # Benchmark: Custom CNN vs MobileNetV2 / ResNet50
 ```
 
 ---

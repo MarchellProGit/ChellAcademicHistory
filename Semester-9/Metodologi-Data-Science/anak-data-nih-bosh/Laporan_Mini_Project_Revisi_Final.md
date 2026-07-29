@@ -25,10 +25,10 @@ Proyek ini dirancang sebagai pemodelan *time-series classification*, mengingat d
 Data yang digunakan dalam pemodelan ini bersumber dari dua himpunan data (*dataset*) sekunder: `global_air_quality_dataset.csv` dan `worldwide_weather_2025.csv`. 
 
 1. **Global Air Quality Dataset (`global_air_quality_dataset.csv`)**
-   Dataset ini terdiri dari 3.660 baris dan 13 kolom, memuat informasi historis kualitas udara harian di berbagai kota besar pada tahun 2024. Atribut yang relevan meliputi tanggal, kota, AQI, serta berbagai polutan (PM2.5, PM10, NO2, dll.). Atribut `AQI` digunakan sebagai dasar pembentukan kelas target klasifikasi (Aman/Berbahaya).
-   
+ Dataset ini terdiri dari 3.660 baris dan 13 kolom, memuat informasi historis kualitas udara harian di berbagai kota besar pada tahun 2024. Atribut yang relevan meliputi tanggal, kota, AQI, serta berbagai polutan (PM2.5, PM10, NO2, dll.). Atribut `AQI` digunakan sebagai dasar pembentukan kelas target klasifikasi (Aman/Berbahaya).
+ 
 2. **Worldwide Weather Dataset (`worldwide_weather_2025.csv`)**
-   Dataset ini memiliki 14.600 baris dan 33 kolom, mencakup data meteorologi harian global untuk tahun 2025. Beberapa variabel prediktor yang diekstraksi meliputi suhu maksimum/minimum (`temperature_2m_max`, `temperature_2m_min`), suhu terasa (`apparent_temperature_max`), total curah hujan (`precipitation_sum`), kecepatan dan hembusan angin (`windspeed_10m_max`, `windgusts_10m_max`), persentase tutupan awan (`cloudcover_mean`), serta fitur waktu (`month`, `is_weekend`, `heavy_rain_flag`).
+ Dataset ini memiliki 14.600 baris dan 33 kolom, mencakup data meteorologi harian global untuk tahun 2025. Beberapa variabel prediktor yang diekstraksi meliputi suhu maksimum/minimum (`temperature_2m_max`, `temperature_2m_min`), suhu terasa (`apparent_temperature_max`), total curah hujan (`precipitation_sum`), kecepatan dan hembusan angin (`windspeed_10m_max`, `windgusts_10m_max`), persentase tutupan awan (`cloudcover_mean`), serta fitur waktu (`month`, `is_weekend`, `heavy_rain_flag`).
 
 Pada tahap *Data Understanding*, observasi difokuskan pada kunci komposit: `City` dan `Date`. Hasil *profiling* menemukan adanya irisan data pada 7 kota utama (Beijing, Cairo, Delhi, London, Paris, Sydney, dan Tokyo). Hal ini memfasilitasi proses integrasi data. 
 
@@ -100,9 +100,9 @@ Saat ini aplikasi beroperasi dalam versi purwarupa tertutup. Pada iterasi pengem
 
 ### Lampiran yang Disiapkan
 1. **Dataset Raw** 
-   - Global Air Quality: `https://drive.google.com/open?id=1nURyC3kPJDW0PpgngEO8LfkCOfXCUXRq&usp=drive_copy`
-   - Worldwide Weather 2025: `https://drive.google.com/open?id=1tpa_4u69A6uIR-QtoRim5eDqdl29caJ1&usp=drive_copy`
+ - Global Air Quality: `https://drive.google.com/open?id=1nURyC3kPJDW0PpgngEO8LfkCOfXCUXRq&usp=drive_copy`
+ - Worldwide Weather 2025: `https://drive.google.com/open?id=1tpa_4u69A6uIR-QtoRim5eDqdl29caJ1&usp=drive_copy`
 2. **Repositori GitHub Publik**
-   - Source Code: `https://github.com/MarchellStudentGit/anak-data-nih-bosh.git`
+ - Source Code: `https://github.com/MarchellStudentGit/anak-data-nih-bosh.git`
 3. **Cloud Deployment URL**
-   - Web App (*Live Streamlit*): `https://anak-data-nih-bosh.streamlit.app/`
+ - Web App (*Live Streamlit*): `https://anak-data-nih-bosh.streamlit.app/`

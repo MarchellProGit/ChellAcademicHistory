@@ -11,16 +11,16 @@ This directory contains Natural Language Processing (NLP) text processing pipeli
 
 ```text
 Semester-9/Pemrosesan-Bahasa-Alami/
-├── data/
-│   ├── corpus.csv                                       # Text Analysis Corpus Dataset
-│   ├── jampidsus.csv                                    # Legal & News Text Corpus
-│   └── run_results.csv                                  # Model Output Predictions
-├── workflows/
-│   ├── Orange_Text_Mining_Workflow_1.ows                # Visual Workflow: Corpus Tokenization & Word Cloud
-│   └── Orange_Text_Mining_Workflow_2.ows                # Visual Workflow: Topic Modeling (LDA)
-└── notebooks/
-    ├── NLP_Twitter_Scraping_Sastrawi_Preprocessing.ipynb # Apify Twitter Scraper & Sastrawi Stemming
-    └── BBC_News_NLP_Text_Classification.ipynb           # TF-IDF Feature Matrix & Naive Bayes Classifier
+ data/
+ corpus.csv # Text Analysis Corpus Dataset
+ jampidsus.csv # Legal & News Text Corpus
+ run_results.csv # Model Output Predictions
+ workflows/
+ Orange_Text_Mining_Workflow_1.ows # Visual Workflow: Corpus Tokenization & Word Cloud
+ Orange_Text_Mining_Workflow_2.ows # Visual Workflow: Topic Modeling (LDA)
+ notebooks/
+ NLP_Twitter_Scraping_Sastrawi_Preprocessing.ipynb # Apify Twitter Scraper & Sastrawi Stemming
+ BBC_News_NLP_Text_Classification.ipynb # TF-IDF Feature Matrix & Naive Bayes Classifier
 ```
 
 ---

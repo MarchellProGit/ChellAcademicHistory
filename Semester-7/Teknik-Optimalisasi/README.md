@@ -11,10 +11,10 @@ This directory contains metaheuristic optimization algorithms including Particle
 
 ```text
 Semester-7/Teknik-Optimalisasi/
-└── notebooks/
-    ├── Particle_Swarm_Optimization_Network_Routing.ipynb # Multi-Objective Delay/Energy PSO Routing
-    ├── PSO untuk Optimasi Rute Jaringan.ipynb             # Communication Graph Shortest Path PSO
-    └── Harmony Search.ipynb                               # Pitch Adjustment & Memory Harmony Search
+ notebooks/
+ Particle_Swarm_Optimization_Network_Routing.ipynb # Multi-Objective Delay/Energy PSO Routing
+ PSO untuk Optimasi Rute Jaringan.ipynb # Communication Graph Shortest Path PSO
+ Harmony Search.ipynb # Pitch Adjustment & Memory Harmony Search
 ```
 
 ---

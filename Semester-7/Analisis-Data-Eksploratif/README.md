@@ -11,12 +11,12 @@ This course archive contains end-to-end Exploratory Data Analysis (EDA) pipeline
 
 ```text
 Semester-7/Analisis-Data-Eksploratif/
-└── notebooks/
-    ├── PCA.ipynb                                         # Principal Component Analysis & Variance Ratio Profiling
-    ├── Exploratory_Data_Analysis_Features_Profile.ipynb  # Missing Value Imputation & Feature Distributions
-    ├── Exploratory_Data_Analysis_Midterm.ipynb          # Comprehensive EDA Midterm Analytical Solution
-    ├── DV0101EN-Exercise-Area-Plots-Histograms-and-Bar-Charts.ipynb # Quantitative Area & Bar Charts
-    └── DV0101EN-Exercise-Pie-Charts-Box-Plots-Scatter-Plots-and-Bubble-Plots.ipynb # Scatter & Bubble Analysis
+ notebooks/
+ PCA.ipynb # Principal Component Analysis & Variance Ratio Profiling
+ Exploratory_Data_Analysis_Features_Profile.ipynb # Missing Value Imputation & Feature Distributions
+ Exploratory_Data_Analysis_Midterm.ipynb # Comprehensive EDA Midterm Analytical Solution
+ DV0101EN-Exercise-Area-Plots-Histograms-and-Bar-Charts.ipynb # Quantitative Area & Bar Charts
+ DV0101EN-Exercise-Pie-Charts-Box-Plots-Scatter-Plots-and-Bubble-Plots.ipynb # Scatter & Bubble Analysis
 ```
 
 ---

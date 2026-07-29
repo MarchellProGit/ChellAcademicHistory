@@ -11,21 +11,21 @@ A full-stack Web3 Decentralized Autonomous Organization (DAO) platform featuring
 
 ```text
 Semester-9/Blockchain/
-├── NexusDAO-Web3/
-│   ├── foundry.toml                                     # Foundry Compiler & Testnet Configuration
-│   ├── src/
-│   │   ├── NexusDAO.sol                                 # Governance & Voting Smart Contract
-│   │   └── SimpleStorage.sol                            # State Storage Smart Contract
-│   ├── script/
-│   │   └── Deploy.s.sol                                 # Anvil Local Deployment Script
-│   ├── test/
-│   │   └── NexusDAO.t.sol                               # Unit Tests (Voting & Proposal Execution)
-│   └── app/                                             # React + Vite + Tailwind Frontend
-│       ├── src/
-│       │   ├── App.tsx                                  # Web3 UI Dashboard
-│       │   └── lib/ethereum.ts                          # Ethers/Viem Provider Integration
-│       └── package.json
-└── Crypto-Lab/                                          # Cryptographic Digest & Signature Scripts
+ NexusDAO-Web3/
+ foundry.toml # Foundry Compiler & Testnet Configuration
+ src/
+ NexusDAO.sol # Governance & Voting Smart Contract
+ SimpleStorage.sol # State Storage Smart Contract
+ script/
+ Deploy.s.sol # Anvil Local Deployment Script
+ test/
+ NexusDAO.t.sol # Unit Tests (Voting & Proposal Execution)
+ app/ # React + Vite + Tailwind Frontend
+ src/
+ App.tsx # Web3 UI Dashboard
+ lib/ethereum.ts # Ethers/Viem Provider Integration
+ package.json
+ Crypto-Lab/ # Cryptographic Digest & Signature Scripts
 ```
 
 ---

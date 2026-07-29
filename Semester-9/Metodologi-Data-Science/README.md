@@ -11,16 +11,16 @@ An end-to-end CRISP-DM (Cross-Industry Standard Process for Data Science) predic
 
 ```text
 Semester-9/Metodologi-Data-Science/
-└── anak-data-nih-bosh/
-    ├── app.py                                           # Streamlit Interactive Web Application
-    ├── Air_Quality_Weather_Project.py                   # XGBoost Model Training & CRISP-DM Evaluation
-    ├── requirements.txt                                 # Python Dependency Specification
-    ├── data/raw/
-    │   ├── worldwide_weather_2025.csv                   # Global Weather Dataset
-    │   └── global_air_quality_dataset.csv               # AQI Features Dataset
-    └── results/
-        ├── xgb_weather_model.pkl                        # Serialized XGBoost Model
-        └── weather_scaler.pkl                           # StandardScaler Pipeline Artifact
+ anak-data-nih-bosh/
+ app.py # Streamlit Interactive Web Application
+ Air_Quality_Weather_Project.py # XGBoost Model Training & CRISP-DM Evaluation
+ requirements.txt # Python Dependency Specification
+ data/raw/
+ worldwide_weather_2025.csv # Global Weather Dataset
+ global_air_quality_dataset.csv # AQI Features Dataset
+ results/
+ xgb_weather_model.pkl # Serialized XGBoost Model
+ weather_scaler.pkl # StandardScaler Pipeline Artifact
 ```
 
 ---

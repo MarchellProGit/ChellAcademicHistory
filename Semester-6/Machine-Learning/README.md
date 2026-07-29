@@ -11,14 +11,14 @@ This directory houses supervised and unsupervised machine learning algorithms, m
 
 ```text
 Semester-6/Machine-Learning/
-└── notebooks/
-    ├── Clustering - DBSCAN.ipynb                      # Density-Based Spatial Clustering with Noise
-    ├── Clustering - KMEANS.ipynb                      # Centroid K-Means Clustering & Elbow Method Analysis
-    ├── klustering.ipynb                               # Comparative Silhouette Score & Hierarchical Clustering
-    ├── latihan_regresi.ipynb                          # Linear & Polynomial Regression Analysis
-    ├── klasifikasi.ipynb                              # Decision Trees, Random Forest & Support Vector Machines
-    ├── Classification_Logistic_Regression_Pipeline.ipynb # Binary Classification & Logistic Curves
-    └── Supervised_Learning_Model_Evaluation.ipynb     # Confusion Matrix, ROC-AUC Curves & Cross-Validation
+ notebooks/
+ Clustering - DBSCAN.ipynb # Density-Based Spatial Clustering with Noise
+ Clustering - KMEANS.ipynb # Centroid K-Means Clustering & Elbow Method Analysis
+ klustering.ipynb # Comparative Silhouette Score & Hierarchical Clustering
+ latihan_regresi.ipynb # Linear & Polynomial Regression Analysis
+ klasifikasi.ipynb # Decision Trees, Random Forest & Support Vector Machines
+ Classification_Logistic_Regression_Pipeline.ipynb # Binary Classification & Logistic Curves
+ Supervised_Learning_Model_Evaluation.ipynb # Confusion Matrix, ROC-AUC Curves & Cross-Validation
 ```
 
 ---
