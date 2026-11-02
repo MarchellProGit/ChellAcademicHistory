@@ -65,6 +65,8 @@ flowchart TD
  BC["Blockchain (Solidity, Foundry, NexusDAO dApp)"]
  MDS["Metodologi Data Science (XGBoost, Streamlit, FastAPI)"]
  NLP["Pemrosesan Bahasa Alami (Sastrawi, TF-IDF, Orange3)"]
+ PS["Pemodelan Spasial (AHP 6-Param & 3D WebGL Digital Twin)"]
+ PTK["Pendidikan & Teknologi Kebencanaan (Disaster Risk Reduction)"]
  end
 
  Year1 --> Year2 --> Year3 --> Year4
@@ -96,10 +98,13 @@ ChellAcademicHistory/
 │   ├── Computer-Vision-and-Applications/# OpenCV, YOLOv8/v11 BISINDO Sign Detection & Image Processing
 │   ├── Deep-Learning/                  # PyTorch / TensorFlow CNNs, RNNs & LSTM Time Series
 │   └── Teknik-Optimalisasi/            # Particle Swarm Optimization (PSO) & Harmony Search
-└── Semester-9/                         # Trimesters 10 - 12: Web3 Systems & Applied Data Science
-    ├── Blockchain/                     # NexusDAO Solidity Smart Contracts, Foundry & React/Vite dApp
-    ├── Metodologi-Data-Science/        # End-to-End CRISP-DM Machine Learning (XGBoost, Streamlit, FastAPI)
-    └── Pemrosesan-Bahasa-Alami/        # NLP Pipelines, Sastrawi, TF-IDF & Orange3 Workflows
+├── Semester-9/                         # Trimesters 10 - 12: Web3 Systems & Applied Data Science
+│   ├── Blockchain/                     # NexusDAO Solidity Smart Contracts, Foundry & React/Vite dApp
+│   ├── Metodologi-Data-Science/        # End-to-End CRISP-DM Machine Learning (XGBoost, Streamlit, FastAPI)
+│   └── Pemrosesan-Bahasa-Alami/        # NLP Pipelines, Sastrawi, TF-IDF & Orange3 Workflows
+└── Semester-10/                        # Trimesters 10 - 12: Spatial Modeling & Disaster Risk Analytics
+    ├── Pemodelan Spasial/              # 3D Digital Twin, Multi-Criteria AHP 6-P, QGIS Spatial Modeling
+    └── Pendidikan dan Teknologi Kebencanaan/ # Disaster Risk Assessment & Mitigation Systems
 ```
 
 ---
@@ -133,6 +138,8 @@ ChellAcademicHistory/
 | **Blockchain Technology** | Solidity, Foundry, React, Vite | NexusDAO Decentralized Governance Contracts, Anvil Local Testnet & React dApp | [`./Semester-9/Blockchain/`](./Semester-9/Blockchain/) |
 | **Metodologi Data Science (MDS)** | Python (`XGBoost`, `Streamlit`) | CRISP-DM Predictive Weather System & FastAPI Microservices | [`./Semester-9/Metodologi-Data-Science/`](./Semester-9/Metodologi-Data-Science/) |
 | **Pemrosesan Bahasa Alami (NLP)** | Python (`NLTK`, `Sastrawi`) | Twitter Sastrawi Stemming, BBC News TF-IDF Classifiers & Orange3 Visual Mining | [`./Semester-9/Pemrosesan-Bahasa-Alami/`](./Semester-9/Pemrosesan-Bahasa-Alami/) |
+| **Pemodelan Spasial** | QGIS 3.x, Python, GDAL, Three.js | Analisis Kerawanan Longsor AHP 6-Parameter & Interactive 3D WebGL Digital Twin Desa Tajuk | [`./Semester-10/Pemodelan Spasial/`](./Semester-10/Pemodelan%20Spasial/) |
+| **Pendidikan & Teknologi Kebencanaan** | Python, QGIS Spatial Analysis | Pemetaan Risiko Erupsi Gunung Merapi & Evaluasi Pendidikan Mitigasi Desa Tegalmulyo | [`./Semester-10/Pendidikan dan Teknologi Kebencanaan/`](./Semester-10/Pendidikan%20dan%20Teknologi%20Kebencanaan/) |
 
 ---
 

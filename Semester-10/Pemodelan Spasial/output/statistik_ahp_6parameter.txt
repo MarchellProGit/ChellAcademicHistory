@@ -1,0 +1,6 @@
+Total Piksel: 32696 (1 piksel = 900 m2 / 0.09 Ha)
+Kelas 1 (Sangat Rendah): 527.22 Ha (17.92%)
+Kelas 2 (Rendah): 983.70 Ha (33.43%)
+Kelas 3 (Sedang): 1113.93 Ha (37.85%)
+Kelas 4 (Tinggi): 317.79 Ha (10.80%)
+Kelas 5 (Sangat Tinggi): 0.00 Ha (0.00%)

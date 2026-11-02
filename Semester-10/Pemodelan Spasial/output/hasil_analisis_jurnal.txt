@@ -1,0 +1,29 @@
+Luas Wilayah Kajian Desa Tajuk: 1021.14 ha (11346 piksel)
+Rentang Elevasi: 938.0 - 3066.3 m (Rata-rata: 1629.7 m)
+Batas Kelas Ketinggian Jenks: [1299.8, 1684.8, 2097.6, 2530.6, 3066.3]
+Batas Kelas NDMI Jenks: [0.0294, 0.1149, 0.1954, 0.284, 0.4897]
+
+Tabel 5. Sebaran Kelas Kemiringan Lereng:
+0–8 (Datar): 46.98 ha (4.60%)
+8–15 (Landai): 153.63 ha (15.04%)
+15–25 (Agak Curam): 238.23 ha (23.33%)
+25–45 (Curam): 312.66 ha (30.62%)
+> 45 (Sangat Curam): 269.10 ha (26.35%)
+
+Tabel 6. Statistik NDVI & NDMI:
+NDVI: Min=0.181, Max=0.790, Mean=0.512
+NDMI: Min=-0.149, Max=0.490, Mean=0.146
+Koefisien Korelasi Pearson (r): 0.917
+
+Tabel 7. Luas Kelas Kerawanan Longsor Desa Tajuk:
+Sangat Rendah: 46.71 ha (4.57%)
+Rendah: 191.79 ha (18.78%)
+Sedang: 421.47 ha (41.27%)
+Tinggi: 346.50 ha (33.93%)
+Sangat Tinggi: 14.67 ha (1.44%)
+
+Total Kelas Tinggi & Sangat Tinggi: 361.17 ha (35.37%)
+
+Validasi dengan Titik Kejadian BPBD (28 Februari 2024):
+Dusun Gedong: Kelas Sedang (Skor 2.62, Lereng 20.3%, Elevasi 1656.1 m, NDVI 0.35, NDMI 0.02)
+Dusun Dukoh: Kelas Rendah (Skor 2.11, Lereng 9.0%, Elevasi 1084.1 m, NDVI 0.57, NDMI 0.20)

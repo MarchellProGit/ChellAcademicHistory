@@ -1,0 +1,461 @@
+Pemodelan Spasial Tingkat Kerawanan Longsor di Desa Tajuk, Kecamatan Getasan, Kabupaten Semarang Menggunakan Overlay Berbobot Berbasis Citra Landsat 9 dan DEM Turunan Kontur
+
+Marchell Adi Pratama, Andreas Okta Yordanianto, Rhefino Agustinus Pandu Nazaretha, Yefta Chrisnanda
+
+Abstrak
+
+Desa Tajuk di Kecamatan Getasan, Kabupaten Semarang, berada di kawasan dataran tinggi dengan lereng curam dan pernah mengalami longsor yang menutup akses jalan serta menimpa rumah warga pada 28 Februari 2024. Penelitian ini bertujuan memetakan tingkat kerawanan longsor di Desa Tajuk menggunakan metode overlay berbobot. Empat parameter digunakan, yaitu kemiringan lereng dan ketinggian yang diturunkan dari kontur skala 1:25.000, serta Normalized Difference Vegetation Index (NDVI) dan Normalized Difference Moisture Index (NDMI) yang dihitung dari citra Landsat 9 OLI-2 akuisisi 24 September 2026. Bobot parameter ditentukan dengan Analytical Hierarchy Process (AHP) dan menghasilkan rasio konsistensi 0,017. Setiap parameter diberi skor 1 sampai 5, kemudian digabungkan menjadi lima kelas kerawanan. Hasil pemodelan menunjukkan bahwa [ISI: persentase luas kelas tinggi dan sangat tinggi, dan letaknya]. Validasi dengan titik kejadian longsor yang dilaporkan BPBD menunjukkan bahwa [ISI: kelas kerawanan di Dusun Gedong dan Dusun Dukoh]. Peta yang dihasilkan dapat menjadi dasar awal penentuan prioritas mitigasi di tingkat desa.
+
+Kata kunci: kerawanan longsor; overlay berbobot; AHP; NDVI; NDMI; Landsat 9; Desa Tajuk
+
+1. Pendahuluan
+
+Longsor adalah perpindahan massa tanah, batuan, atau campuran keduanya menuruni lereng akibat gaya gravitasi. Jenisnya beragam, dari jatuhan dan luncuran sampai aliran material, dan klasifikasinya terus diperbarui oleh para ahli [1]. Kejadian longsor tidak berdiri sendiri. Ia muncul dari interaksi faktor geologi, topografi, hidrologi, tutupan lahan, dan aktivitas manusia, dengan hujan lebat sebagai pemicu yang paling sering ditemui [13]. Di Indonesia, kombinasi lereng curam, curah hujan tinggi, dan alih fungsi lahan membuat kawasan pegunungan menjadi wilayah yang rutin mengalami kejadian ini.
+
+Desa Tajuk di Kecamatan Getasan, Kabupaten Semarang, merupakan contoh nyata. Berdasarkan laporan BPBD Provinsi Jawa Tengah, hujan deras pada 28 Februari 2024 memicu longsor di Dusun Gedong yang menutup akses jalan dan menimpa satu rumah warga. Pada hari yang sama, akses jembatan di Dusun Dukoh tertutup material tanah, batu, pasir, dan kayu. Peristiwa tersebut tidak menimbulkan korban jiwa, tetapi mengganggu mobilitas warga dan menunjukkan bahwa permukiman dan infrastruktur desa berada dekat dengan sumber bahaya [14]. Wilayah desa berada di kawasan dataran tinggi dengan lahan pertanian berteras di lereng, sehingga pemahaman tentang sebaran daerah rawan menjadi kebutuhan yang mendesak.
+
+Pemetaan kerawanan longsor berbasis Sistem Informasi Geografis (SIG) sudah lama menjadi pendekatan standar. Guzzetti dkk. [2] membahas berbagai teknik evaluasi bahaya longsor, sedangkan Reichenbach dkk. [3] meninjau model kerawanan berbasis statistik. Pendekatan berbasis machine learning juga berkembang, misalnya di Sentani, Papua, yang menggunakan model ensemble untuk memetakan kerawanan longsor dengan resolusi tinggi [9]. Namun, model semacam itu membutuhkan inventaris kejadian longsor yang cukup banyak sebagai data latih. Untuk skala satu desa dengan catatan kejadian yang terbatas, pendekatan multikriteria berbasis overlay dan skoring lebih realistis. Yalcin [4] menunjukkan bahwa AHP dapat dipakai untuk menentukan bobot faktor penyebab longsor di lingkungan SIG, dan hasilnya dapat dibandingkan dengan sebaran longsor sebenarnya.
+
+Citra penginderaan jauh melengkapi data topografi dengan informasi kondisi permukaan. Landsat 9 melanjutkan seri Landsat dengan kualitas radiometrik yang baik dan data yang dapat diakses gratis [6]. Dari citra ini dapat dihitung indeks vegetasi (NDVI) [7] dan indeks kelembapan (NDMI) [8]. Putra dkk. [10] menunjukkan bahwa perubahan tutupan hutan berkaitan dengan meningkatnya luas area rawan longsor di sub-DAS Sumber Brantas dan Kali Konto. Chrysafi dkk. [11] memanfaatkan NDVI, NDMI, dan indeks tanah terbuka untuk mendeteksi area rawan longsor setelah hujan ekstrem, sedangkan Barlow dkk. [12] menggabungkan NDVI dan kemiringan lereng untuk menyaring area yang berpotensi menjadi bekas longsoran. Ketiganya mendukung ide bahwa vegetasi dan topografi sebaiknya dianalisis bersama.
+
+Berdasarkan uraian tersebut, penelitian ini bertujuan untuk: (1) menurunkan kemiringan lereng dan ketinggian dari data kontur Desa Tajuk; (2) menghitung NDVI dan NDMI dari citra Landsat 9; (3) menentukan bobot parameter dengan AHP; dan (4) menyusun peta kerawanan longsor berbasis overlay berbobot serta memvalidasinya dengan titik kejadian yang dilaporkan BPBD. Kontribusi penelitian ini adalah penerapan alur kerja yang ringan dan dapat diulang pada skala desa menggunakan data terbuka.
+
+2. Landasan Teori
+
+2.1 Longsor dan faktor penyebabnya
+
+Faktor penyebab longsor umumnya dibagi menjadi faktor pengondisi dan faktor pemicu. Faktor pengondisi bersifat relatif tetap, misalnya kemiringan lereng, ketinggian, jenis batuan, jenis tanah, dan tutupan lahan. Faktor pemicu bersifat sementara, terutama hujan intensitas tinggi dan gempa [13]. Kemiringan lereng hampir selalu muncul sebagai faktor paling berpengaruh dalam berbagai studi kerawanan [2][4][9]. Vegetasi berperan menahan tanah melalui akar dan mengurangi limpasan, sehingga lahan dengan vegetasi jarang cenderung lebih mudah longsor [10][12].
+
+2.2 Pemetaan kerawanan dengan overlay dan skoring
+
+Kerawanan longsor menyatakan seberapa besar kemungkinan suatu lokasi mengalami longsor berdasarkan sifat lahannya, tanpa memperhitungkan kapan kejadiannya [2]. Pada metode overlay berbobot, setiap parameter diklasifikasikan menjadi beberapa kelas, tiap kelas diberi skor, lalu semua lapisan ditumpang-susun (overlay) dengan bobot yang mencerminkan pengaruh relatif tiap parameter. Metode ini termasuk kelompok pendekatan berbasis pengetahuan (knowledge-driven) yang tidak memerlukan inventaris longsor sebagai data latih, tetapi bergantung pada kualitas penilaian pakar dan literatur [3]. Karena itu validasi dengan kejadian nyata tetap diperlukan.
+
+2.3 Analytical Hierarchy Process (AHP)
+
+AHP dikembangkan oleh Saaty untuk menyusun prioritas dari beberapa kriteria melalui perbandingan berpasangan [5]. Setiap pasang parameter dibandingkan dengan skala 1 sampai 9, kemudian disusun dalam matriks perbandingan. Bobot diperoleh dari vektor eigen utama matriks tersebut. Konsistensi penilaian diperiksa dengan Consistency Index (CI) dan Consistency Ratio (CR):
+
+CI = (λmax − n) / (n − 1)    (1)
+
+CR = CI / RI    (2)
+
+dengan λmax adalah nilai eigen maksimum, n adalah jumlah parameter, dan RI adalah Random Index (0,90 untuk n = 4). Penilaian dianggap konsisten bila CR kurang dari 0,1 [5]. Pendekatan ini lazim dipakai dalam pemetaan kerawanan longsor berbasis SIG [4].
+
+2.4 NDVI dan NDMI
+
+NDVI memanfaatkan perbedaan pantulan vegetasi pada band merah dan inframerah dekat untuk menunjukkan kerapatan dan kesehatan vegetasi [7]:
+
+NDVI = (ρNIR − ρRed) / (ρNIR + ρRed)    (3)
+
+NDMI memanfaatkan band inframerah dekat dan inframerah gelombang pendek (SWIR). Gao [8] mengusulkan indeks berbasis kedua band ini untuk menggambarkan kandungan air cair pada vegetasi, dan dalam literatur indeks tersebut lazim disebut NDMI:
+
+NDMI = (ρNIR − ρSWIR1) / (ρNIR + ρSWIR1)    (4)
+
+Nilai NDMI yang tinggi menandakan permukaan yang lebih lembap, sedangkan nilai rendah menandakan permukaan yang lebih kering atau terbuka. Kedua indeks ini sudah dipakai bersama indeks tanah terbuka untuk menilai area rawan longsor [11].
+
+2.5 Citra Landsat 9
+
+Landsat 9 membawa sensor Operational Land Imager 2 (OLI-2) dengan resolusi spasial 30 meter pada band multispektral [6]. Pada penelitian ini digunakan band 4 (merah), band 5 (inframerah dekat), dan band 6 (SWIR1). Resolusi 30 meter cukup untuk analisis tingkat desa, meskipun bukan yang terbaik untuk memisahkan objek kecil seperti bangunan tunggal.
+
+3. Metode
+
+3.1 Lokasi dan data penelitian
+
+Lokasi penelitian adalah Desa Tajuk, Kecamatan Getasan, Kabupaten Semarang, Jawa Tengah, dengan luas [ISI: luas desa dalam hektare dari atribut batas administrasi]. Data yang digunakan disajikan pada Tabel 1.
+
+Tabel 1. Data penelitian
+
+No
+
+Data
+
+Sumber
+
+Kegunaan
+
+1
+
+Kontur skala 1:25.000
+
+Peta Rupabumi Indonesia (RBI)
+
+Menurunkan DEM, kemiringan lereng, dan ketinggian
+
+2
+
+Batas administrasi desa skala 1:25.000
+
+Peta Rupabumi Indonesia (RBI)
+
+Batas wilayah kajian
+
+3
+
+Citra Landsat 9 OLI-2 Level-1 (path/row 120/065), akuisisi 24 September 2026
+
+USGS
+
+Menghitung NDVI dan NDMI
+
+4
+
+Laporan kejadian longsor 28 Februari 2024
+
+BPBD Provinsi Jawa Tengah [14]
+
+Validasi hasil model
+
+5
+
+Dokumentasi lapangan (foto kejadian dan wilayah dusun)
+
+Media daring dan dokumentasi pribadi
+
+Konteks kondisi wilayah
+
+Seluruh lapisan data diproyeksikan ke sistem koordinat WGS 84 / UTM zona 49S (EPSG:32749) dan diseragamkan pada resolusi 30 meter agar sepadan dengan citra Landsat. Pengolahan dilakukan dengan QGIS dan plugin Semi-Automatic Classification Plugin (SCP).
+
+3.2 Tahapan penelitian
+
+Penelitian dilakukan dalam enam tahap. Pertama, pengumpulan dan penyeragaman data. Kedua, pra-pemrosesan citra Landsat 9. Ketiga, penurunan DEM, kemiringan lereng, dan ketinggian dari kontur. Keempat, klasifikasi dan pemberian skor tiap parameter. Kelima, pembobotan dengan AHP dan overlay. Keenam, pengelasan kerawanan dan validasi.
+
+3.3 Pra-pemrosesan citra
+
+Citra Landsat 9 Level-1 (L1TP) dikonversi dari nilai digital number menjadi reflektansi top-of-atmosphere menggunakan koefisien rescaling pada berkas metadata, kemudian dikoreksi pengaruh atmosfer dengan metode Dark Object Subtraction (DOS1) pada plugin SCP. Citra kemudian dipotong sesuai batas Desa Tajuk. NDVI dan NDMI dihitung dengan persamaan (3) dan (4) menggunakan raster calculator.
+
+3.4 Penurunan DEM, kemiringan lereng, dan ketinggian
+
+DEM dibuat dari garis kontur melalui interpolasi TIN, lalu dirasterkan pada resolusi 30 meter. Kemiringan lereng (dalam persen) dan ketinggian diturunkan dari DEM tersebut. Karena DEM berasal dari kontur skala 1:25.000, ketelitiannya mengikuti interval kontur dan perlu dipertimbangkan saat menafsirkan hasil.
+
+3.5 Klasifikasi dan skoring parameter
+
+Setiap parameter dibagi menjadi lima kelas dengan skor 1 (pengaruh paling kecil terhadap kerawanan) sampai 5 (pengaruh paling besar). Kelas kemiringan lereng mengikuti pembagian yang lazim dipakai pada studi kerawanan longsor di Indonesia. Kelas NDVI ditetapkan dari ambang nilai tutupan vegetasi, sedangkan NDMI dan ketinggian diklasifikasikan dengan natural breaks (Jenks) karena rentang nilainya bergantung pada kondisi wilayah. Ringkasan skor disajikan pada Tabel 2.
+
+Tabel 2. Klasifikasi dan skor parameter
+
+Skor
+
+Lereng (%)
+
+NDVI
+
+NDMI
+
+Ketinggian
+
+1
+
+0–8
+
+> 0,7
+
+Kelas terendah (Jenks)
+
+Kelas terendah (Jenks)
+
+2
+
+8–15
+
+0,5–0,7
+
+Kelas 2 (Jenks)
+
+Kelas 2 (Jenks)
+
+3
+
+15–25
+
+0,3–0,5
+
+Kelas 3 (Jenks)
+
+Kelas 3 (Jenks)
+
+4
+
+25–45
+
+0,1–0,3
+
+Kelas 4 (Jenks)
+
+Kelas 4 (Jenks)
+
+5
+
+> 45
+
+≤ 0,1
+
+Kelas tertinggi (Jenks)
+
+Kelas tertinggi (Jenks)
+
+Skor NDVI makin tinggi untuk vegetasi makin jarang karena tutupan yang rapat menahan tanah [10][12]. NDMI yang tinggi diberi skor tinggi karena dipakai sebagai penanda kondisi permukaan yang lebih jenuh air [11]. Ketinggian yang lebih tinggi diberi skor lebih besar karena wilayah yang lebih tinggi di kawasan gunung cenderung memiliki lereng lebih curam dan curah hujan lebih besar. Ini adalah asumsi penelitian yang dijelaskan lebih lanjut pada bagian keterbatasan.
+
+Karena NDMI dan NDVI sama-sama dipengaruhi kerapatan vegetasi, korelasi antar parameter diuji dengan koefisien Pearson sebelum overlay. Jika korelasinya terlalu tinggi (misalnya lebih dari 0,8), salah satu parameter perlu dikurangi bobotnya atau dihapus.
+
+3.6 Pembobotan dengan AHP
+
+Perbandingan berpasangan disusun berdasarkan temuan literatur bahwa lereng merupakan faktor dominan [2][4][9], disusul vegetasi [10][12]. Matriks yang digunakan disajikan pada Tabel 3.
+
+Tabel 3. Matriks perbandingan berpasangan AHP
+
+Parameter
+
+Lereng
+
+NDVI
+
+NDMI
+
+Ketinggian
+
+Lereng
+
+1
+
+3
+
+4
+
+3
+
+NDVI
+
+1/3
+
+1
+
+2
+
+2
+
+NDMI
+
+1/4
+
+1/2
+
+1
+
+1
+
+Ketinggian
+
+1/3
+
+1/2
+
+1
+
+1
+
+Perhitungan vektor eigen menghasilkan bobot seperti pada Tabel 4, dengan λmax = 4,046, CI = 0,015, dan CR = 0,017. Nilai CR di bawah 0,1 menunjukkan bahwa penilaian perbandingan konsisten [5].
+
+Tabel 4. Bobot parameter hasil AHP
+
+Parameter
+
+Bobot
+
+Kemiringan lereng
+
+0,517
+
+NDVI
+
+0,226
+
+Ketinggian
+
+0,134
+
+NDMI
+
+0,123
+
+Jumlah
+
+1,000
+
+3.7 Overlay dan pengelasan kerawanan
+
+Nilai Kerawanan Longsor (KL) dihitung pada setiap piksel dengan penjumlahan berbobot:
+
+KL = 0,517 × S_lereng + 0,226 × S_NDVI + 0,123 × S_NDMI + 0,134 × S_ketinggian    (5)
+
+dengan S adalah skor masing-masing parameter. Nilai KL berkisar antara 1 dan 5, kemudian dibagi menjadi lima kelas dengan interval sama (lebar 0,8), yaitu sangat rendah (1,0–1,8), rendah (1,8–2,6), sedang (2,6–3,4), tinggi (3,4–4,2), dan sangat tinggi (4,2–5,0).
+
+3.8 Validasi
+
+Validasi dilakukan dengan menumpangsusunkan titik kejadian longsor yang dilaporkan BPBD, yaitu Dusun Gedong dan Dusun Dukoh [14], pada peta kerawanan. Model dianggap sesuai bila titik-titik tersebut berada pada kelas tinggi atau sangat tinggi. Jumlah titik yang sedikit membuat validasi ini bersifat indikatif, bukan uji statistik.
+
+4. Hasil dan Pembahasan
+
+4.1 Kondisi topografi
+
+DEM hasil interpolasi kontur menunjukkan bahwa ketinggian Desa Tajuk berkisar antara [ISI: ketinggian minimum] dan [ISI: ketinggian maksimum] meter di atas permukaan laut. Kemiringan lereng didominasi kelas [ISI: kelas lereng terluas], seperti terlihat pada Tabel 5. Peta kontur menunjukkan garis-garis yang sangat rapat pada [ISI: bagian desa yang konturnya paling rapat], yang menandakan lereng curam. Kondisi ini sejalan dengan dokumentasi lapangan yang memperlihatkan permukiman di lereng dengan lahan berteras.
+
+Tabel 5. Sebaran kelas kemiringan lereng
+
+Kelas lereng (%)
+
+Luas (ha)
+
+Persentase (%)
+
+0–8
+
+[ISI]
+
+[ISI]
+
+8–15
+
+[ISI]
+
+[ISI]
+
+15–25
+
+[ISI]
+
+[ISI]
+
+25–45
+
+[ISI]
+
+[ISI]
+
+> 45
+
+[ISI]
+
+[ISI]
+
+4.2 NDVI dan NDMI
+
+Nilai NDVI di wilayah desa berkisar antara [ISI: min] dan [ISI: maks] dengan rata-rata [ISI: rata-rata]. Area dengan NDVI rendah tersebar di [ISI: lokasi, misalnya sekitar permukiman, lahan terbuka, atau jalur jalan]. NDMI berkisar antara [ISI: min] dan [ISI: maks]. Koefisien korelasi Pearson antara NDVI dan NDMI sebesar [ISI: nilai r], sehingga [ISI: kesimpulan, misalnya kedua parameter masih dapat digunakan bersama atau salah satunya perlu dikurangi pengaruhnya].
+
+Perlu diingat bahwa citra yang digunakan adalah satu scene bertanggal 24 September 2026. Nilai NDVI dan NDMI menggambarkan kondisi pada saat akuisisi, bukan kondisi rata-rata sepanjang tahun, dan citra Landsat dapat terpengaruh bayangan lereng pada medan bergunung.
+
+Tabel 6. Statistik NDVI dan NDMI Desa Tajuk
+
+Indeks
+
+Minimum
+
+Maksimum
+
+Rata-rata
+
+NDVI
+
+[ISI]
+
+[ISI]
+
+[ISI]
+
+NDMI
+
+[ISI]
+
+[ISI]
+
+[ISI]
+
+4.3 Peta kerawanan longsor
+
+Hasil overlay berbobot menghasilkan lima kelas kerawanan seperti pada Tabel 7. Kelas tinggi dan sangat tinggi menempati [ISI: total persen] dari luas desa, dan terkonsentrasi pada [ISI: bagian desa, misalnya lereng curam dengan NDVI rendah]. Sebaliknya, kelas rendah dan sangat rendah banyak ditemukan pada [ISI: lokasi]. Pola ini wajar karena kemiringan lereng memiliki bobot terbesar (0,517), sehingga distribusi kelas tinggi mengikuti sebaran lereng curam. Temuan ini konsisten dengan studi lain yang menempatkan lereng sebagai faktor dominan [2][4][9].
+
+Tabel 7. Luas kelas kerawanan longsor Desa Tajuk
+
+Kelas kerawanan
+
+Luas (ha)
+
+Persentase (%)
+
+Sangat rendah
+
+[ISI]
+
+[ISI]
+
+Rendah
+
+[ISI]
+
+[ISI]
+
+Sedang
+
+[ISI]
+
+[ISI]
+
+Tinggi
+
+[ISI]
+
+[ISI]
+
+Sangat tinggi
+
+[ISI]
+
+[ISI]
+
+4.4 Validasi dengan kejadian BPBD
+
+Titik longsor di Dusun Gedong berada pada kelas kerawanan [ISI: kelas], sedangkan titik di Dusun Dukoh berada pada kelas [ISI: kelas]. Dari dua titik kejadian, [ISI: jumlah] berada pada kelas tinggi atau sangat tinggi. [ISI: jika sesuai, tulis bahwa model mampu menangkap lokasi kejadian. Jika ada yang meleset, jelaskan kemungkinan penyebabnya, misalnya longsor di Dukoh berupa material yang terbawa aliran sungai sehingga lokasinya tidak selalu di lereng rawan]. Perlu dicatat bahwa laporan BPBD menyebut material yang menutup jembatan Dusun Dukoh berupa tanah, batu, pasir, dan kayu [14], yang mengindikasikan adanya aliran material dari bagian hulu, bukan hanya longsoran di tempat.
+
+4.5 Pembahasan
+
+Pertama, hasil model menunjukkan bahwa pendekatan overlay berbobot dengan data terbuka dapat menghasilkan gambaran sebaran rawan longsor pada skala desa tanpa inventaris kejadian yang besar. Pendekatan yang lebih canggih seperti model ensemble machine learning di Sentani [9] memang berpotensi lebih akurat, tetapi membutuhkan data latih yang jauh lebih banyak dari yang tersedia di Desa Tajuk.
+
+Kedua, peran vegetasi pantas diperhatikan. Putra dkk. [10] menemukan bahwa penurunan tutupan hutan alami sebanding dengan bertambahnya area rawan tinggi dan sangat tinggi pada sub-DAS di Jawa Timur. Jika area rawan di Desa Tajuk bertepatan dengan NDVI rendah, hal ini memperkuat pentingnya menjaga vegetasi penutup dan mengatur pola tanam di lereng. Barlow dkk. [12] juga menunjukkan bahwa kombinasi NDVI dan kemiringan lereng efektif untuk menyaring area yang berpotensi mengalami longsor, dengan akurasi keseluruhan 75% untuk longsoran berukuran lebih dari satu hektare.
+
+Ketiga, hasil ini dapat dimanfaatkan sebagai dasar prioritas mitigasi di tingkat desa. Area kelas tinggi dan sangat tinggi yang berdekatan dengan permukiman dan jalan, seperti [ISI: dusun atau ruas jalan yang berimpit dengan kelas tinggi], dapat diprioritaskan untuk pemeriksaan lapangan, perbaikan drainase, penguatan teras, dan penanaman vegetasi penahan. Informasi jumlah penduduk dusun terdampak, misalnya Dusun Gedong sebanyak [ISI: jumlah penduduk dari data kependudukan], dapat dipakai untuk memperkirakan paparan.
+
+4.6 Keterbatasan
+
+Penelitian ini memiliki beberapa keterbatasan. (1) Parameter geologi, jenis tanah, dan curah hujan belum dimasukkan karena datanya belum tersedia pada skala desa, padahal ketiganya sangat berpengaruh terhadap longsor [13]. (2) Bobot AHP ditentukan dari penilaian peneliti berdasarkan literatur, bukan dari survei pakar, sehingga hasilnya dapat berubah bila penilaian berbeda. (3) NDVI dan NDMI berasal dari satu scene dan keduanya dipengaruhi kerapatan vegetasi. (4) DEM berasal dari kontur 1:25.000, bukan dari data yang lebih detail seperti LiDAR atau DEM hasil drone. (5) Validasi hanya memakai sedikit titik kejadian sehingga bersifat indikatif. Penelitian lanjutan dapat menambahkan inventaris longsor hasil survei lapangan, data hujan, dan peta tanah, serta membandingkan hasil overlay dengan model machine learning bila data kejadian sudah cukup.
+
+5. Kesimpulan
+
+Penelitian ini menyusun peta kerawanan longsor Desa Tajuk menggunakan overlay berbobot dari empat parameter, yaitu kemiringan lereng, ketinggian, NDVI, dan NDMI. Bobot AHP menempatkan kemiringan lereng sebagai parameter paling berpengaruh (0,517), diikuti NDVI (0,226), ketinggian (0,134), dan NDMI (0,123), dengan rasio konsistensi 0,017. Hasil pemodelan menunjukkan [ISI: ringkasan sebaran kelas kerawanan]. Validasi dengan titik kejadian BPBD menunjukkan [ISI: ringkasan kesesuaian]. Peta ini bersifat awal dan perlu dilengkapi data geologi, tanah, dan hujan serta pengecekan lapangan sebelum dipakai untuk keputusan perencanaan.
+
+Referensi
+
+O. Hungr, S. Leroueil, and L. Picarelli, “The Varnes classification of landslide types, an update,” Landslides, vol. 11, no. 2, pp. 167–194, 2014, doi: 10.1007/s10346-013-0436-y.
+
+F. Guzzetti, A. Carrara, M. Cardinali, and P. Reichenbach, “Landslide hazard evaluation: a review of current techniques and their application in a multi-scale study, Central Italy,” Geomorphology, vol. 31, no. 1–4, pp. 181–216, 1999, doi: 10.1016/S0169-555X(99)00078-1.
+
+P. Reichenbach, M. Rossi, B. D. Malamud, M. Mihir, and F. Guzzetti, “A review of statistically-based landslide susceptibility models,” Earth-Science Reviews, vol. 180, pp. 60–91, 2018, doi: 10.1016/j.earscirev.2018.03.001.
+
+T. Yalcin, “GIS-based landslide susceptibility mapping using analytical hierarchy process and bivariate statistics in Ardesen (Turkey): comparisons of results and confirmations,” Catena, vol. 72, no. 1, pp. 1–12, 2008, doi: 10.1016/j.catena.2007.01.003.
+
+T. L. Saaty, “A scaling method for priorities in hierarchical structures,” Journal of Mathematical Psychology, vol. 15, no. 3, pp. 234–281, 1977, doi: 10.1016/0022-2496(77)90033-5.
+
+J. G. Masek et al., “Landsat 9: Empowering open science and applications through continuity,” Remote Sensing of Environment, vol. 248, p. 111968, 2020, doi: 10.1016/j.rse.2020.111968.
+
+C. J. Tucker, “Red and photographic infrared linear combinations for monitoring vegetation,” Remote Sensing of Environment, vol. 8, no. 2, pp. 127–150, 1979, doi: 10.1016/0034-4257(79)90013-0.
+
+B.-C. Gao, “NDWI—A normalized difference water index for remote sensing of vegetation liquid water from space,” Remote Sensing of Environment, vol. 58, no. 3, pp. 257–266, 1996, doi: 10.1016/S0034-4257(96)00067-3.
+
+Z. Zulfahmi, M. H. Z. Putra, D. Sarah, A. Tohari, N. Madiutomo, P. Hartanto, and R. Damayanti, “GIS-based landslide susceptibility mapping with a blended ensemble model and key influencing factors in Sentani, Papua, Indonesia,” Geosciences, vol. 15, no. 10, p. 390, 2025, doi: 10.3390/geosciences15100390.
+
+A. N. Putra, Jaenudin, N. R. Prasetya, M. T. Sugiarto, Sudarto, C. Prayogo, F. Maritimo, and F. T. Admajaya, “Utilizing remote sensing and random forests to identify optimal land use scenarios and address the increase in landslide susceptibility,” Sustainability, vol. 17, no. 9, p. 4227, 2025, doi: 10.3390/su17094227.
+
+A.-A. Chrysafi, P. Tsangaratos, I. Ilia, and W. Chen, “Rapid landslide detection following an extreme rainfall event using remote sensing indices, synthetic aperture radar imagery, and probabilistic methods,” Land, vol. 14, no. 1, p. 21, 2025, doi: 10.3390/land14010021.
+
+J. Barlow, Y. Martin, and S. E. Franklin, “Detecting translational landslide scars using segmentation of Landsat ETM+ and DEM data in the northern Cascade Mountains, British Columbia,” Canadian Journal of Remote Sensing, vol. 29, pp. 510–517, 2003.
+
+[13] F. C. Dai, C. F. Lee, and Y. Y. Ngai, “Landslide risk assessment and management: an overview,” Engineering Geology, vol. 64, no. 1, pp. 65–87, 2002, doi: 10.1016/S0013-7952(01)00093-X.
+
+[14] BPBD Provinsi Jawa Tengah, “Akses jalan dan jembatan di Desa Tajuk Getasan Semarang tertutup tanah longsor,” 2024. [Online]. Available: https://bpbd.jatengprov.go.id/akses-jalan-dan-jembatan-di-desa-tajuk-getasan-semarang-tertutup-tanahlongsor/

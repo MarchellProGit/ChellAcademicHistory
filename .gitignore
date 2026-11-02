@@ -31,3 +31,22 @@ venv/
 .DS_Store
 Thumbs.db
 
+# Standalone course repositories
+Semester-10/Pendidikan dan Teknologi Kebencanaan/
+
+*.tif
+*.TIF
+*.tif.aux.xml
+*.TIF.aux.xml
+*.qgz
+*.qgs
+*LC08_*
+*LapakGIS*
+
+
+
+
+# Temporary loose staging in Semester-10 (Canonical files are in Semester-10/Pemodelan Spasial/)
+Semester-10/output/
+Semester-10/web/
+Semester-10/*.py
