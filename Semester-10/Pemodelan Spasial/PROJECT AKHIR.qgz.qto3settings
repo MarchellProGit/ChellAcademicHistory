@@ -1,0 +1,868 @@
+{
+  "KEYFRAMES": {
+    "camera": {
+      "tracks": []
+    },
+    "layers": {
+      "Batas_Administrasi_Desa_Tajuk_d00449bc_44a9_4602_94e8_d3d4780b3132": {
+        "enabled": true,
+        "tracks": []
+      },
+      "Curah_Hujan__Isohyet_Lereng_Merbabu__6fa7c4ee_a9b9_4b71_a5fc_51e1fda2c2c8": {
+        "enabled": true,
+        "tracks": []
+      },
+      "DEM_Elevasi__30m__a24a6069_316e_475e_95ba_1238559c0674": {
+        "enabled": true,
+        "tracks": []
+      },
+      "Jaringan_Jalan_Desa_Tajuk_2ff4b652_1177_454b_be4c_08f6fec40f0e": {
+        "enabled": true,
+        "tracks": []
+      },
+      "Jaringan_Sungai___Alur_Debris_Flow_dd47f4a9_a498_45e1_b07c_ca98cd54f656": {
+        "enabled": true,
+        "tracks": []
+      },
+      "Jenis_Tanah__Pedologi_Vulkanik__141c15b4_941c_4008_8c59_921b9319372a": {
+        "enabled": true,
+        "tracks": []
+      },
+      "Kemiringan_Lereng_____4acc6a24_afc9_4f8a_95fa_ab3cb480403e": {
+        "enabled": true,
+        "tracks": []
+      },
+      "NDVI__Kerapatan_Vegetasi__d6caedee_8163_417c_9750_bf54574ba3e6": {
+        "enabled": true,
+        "tracks": []
+      },
+      "Nama_Dusun_Desa_Tajuk_dcc8ab81_1965_4daf_b111_22be84e8486b": {
+        "enabled": true,
+        "tracks": []
+      },
+      "Peta_Kerawanan_Longsor_AHP__6_Parameter_Baru__c334e4be_07b2_4ae6_ab92_32fb795dea12": {
+        "enabled": true,
+        "tracks": []
+      },
+      "Peta_Kerawanan_Longsor__AHP__638cd4b3_5792_4d85_aa8f_6171959b5ba0": {
+        "enabled": true,
+        "tracks": []
+      },
+      "Titik_Kejadian_Longsor_BPBD_b33f3653_c109_44af_b52a_9abc0df338a8": {
+        "enabled": true,
+        "tracks": []
+      },
+      "Tutupan_Lahan__LULC_RBI_1_25K__2f7984f1_b355_4d63_a0b5_57234b90f3ce": {
+        "enabled": true,
+        "tracks": []
+      },
+      "fp:59b3af0e": {
+        "enabled": true,
+        "tracks": []
+      }
+    },
+    "repeat": false
+  },
+  "LAYERS": [
+    {
+      "geomType": 0,
+      "layerId": "Jenis_Tanah__Pedologi_Vulkanik__141c15b4_941c_4008_8c59_921b9319372a",
+      "name": "Jenis Tanah (Pedologi Vulkanik)",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "comboBox_ClipLayer": "Batas_Administrasi_Desa_Tajuk_d00449bc_44a9_4602_94e8_d3d4780b3132",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "ecbc74b2",
+            "name": "map (canvas)",
+            "properties": {
+              "checkBox_FlatShading": false,
+              "checkBox_Shading": true,
+              "checkBox_TransparentBackground": false,
+              "colorButton_Color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "comboBox_TextureSize": "1024",
+              "layerIds": [],
+              "lineEdit_ImageFile": "",
+              "radioButton_WebP": true,
+              "spinBox_Opacity": 100
+            },
+            "type": 0
+          }
+        ],
+        "mtlId": "ecbc74b2",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3,
+        "spinBox_TileSideSegments": 512
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "Curah_Hujan__Isohyet_Lereng_Merbabu__6fa7c4ee_a9b9_4b71_a5fc_51e1fda2c2c8",
+      "name": "Curah Hujan (Isohyet Lereng Merbabu)",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "comboBox_ClipLayer": "Batas_Administrasi_Desa_Tajuk_d00449bc_44a9_4602_94e8_d3d4780b3132",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "2ebf47fd",
+            "name": "map (canvas)",
+            "properties": {
+              "checkBox_FlatShading": false,
+              "checkBox_Shading": true,
+              "checkBox_TransparentBackground": false,
+              "colorButton_Color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "comboBox_TextureSize": "1024",
+              "layerIds": [],
+              "lineEdit_ImageFile": "",
+              "radioButton_WebP": true,
+              "spinBox_Opacity": 100
+            },
+            "type": 0
+          }
+        ],
+        "mtlId": "2ebf47fd",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3,
+        "spinBox_TileSideSegments": 512
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "Tutupan_Lahan__LULC_RBI_1_25K__2f7984f1_b355_4d63_a0b5_57234b90f3ce",
+      "name": "Tutupan Lahan (LULC RBI 1:25K)",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "comboBox_ClipLayer": "Batas_Administrasi_Desa_Tajuk_d00449bc_44a9_4602_94e8_d3d4780b3132",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "fdf132b4",
+            "name": "map (canvas)",
+            "properties": {
+              "checkBox_FlatShading": false,
+              "checkBox_Shading": true,
+              "checkBox_TransparentBackground": false,
+              "colorButton_Color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "comboBox_TextureSize": "1024",
+              "layerIds": [],
+              "lineEdit_ImageFile": "",
+              "radioButton_WebP": true,
+              "spinBox_Opacity": 100
+            },
+            "type": 0
+          }
+        ],
+        "mtlId": "fdf132b4",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3,
+        "spinBox_TileSideSegments": 512
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "Peta_Kerawanan_Longsor_AHP__6_Parameter_Baru__c334e4be_07b2_4ae6_ab92_32fb795dea12",
+      "name": "Peta Kerawanan Longsor AHP (6 Parameter Baru)",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "comboBox_ClipLayer": "Batas_Administrasi_Desa_Tajuk_d00449bc_44a9_4602_94e8_d3d4780b3132",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "e72b70c0",
+            "name": "map (canvas)",
+            "properties": {
+              "checkBox_FlatShading": false,
+              "checkBox_Shading": true,
+              "checkBox_TransparentBackground": false,
+              "colorButton_Color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "comboBox_TextureSize": "1024",
+              "layerIds": [],
+              "lineEdit_ImageFile": "",
+              "radioButton_WebP": true,
+              "spinBox_Opacity": 100
+            },
+            "type": 0
+          }
+        ],
+        "mtlId": "e72b70c0",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3,
+        "spinBox_TileSideSegments": 512
+      },
+      "visible": true
+    },
+    {
+      "geomType": 2,
+      "layerId": "Jaringan_Jalan_Desa_Tajuk_2ff4b652_1177_454b_be4c_08f6fec40f0e",
+      "name": "Jaringan Jalan Desa Tajuk",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Visible": true,
+        "comboBox_ObjectType": "Line",
+        "comboBox_altitudeMode": null,
+        "comboEdit_Color": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "comboEdit_Color2": {
+          "comboData": null,
+          "comboText": "None",
+          "editText": "",
+          "type": 7
+        },
+        "comboEdit_FilePath": {},
+        "comboEdit_Opacity": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "comboEdit_altitude2": {},
+        "fieldExpressionWidget_altitude": "0",
+        "geomWidget0": {},
+        "geomWidget1": {},
+        "geomWidget2": {},
+        "geomWidget3": {},
+        "geomWidget4": {},
+        "lineEdit_Name": "",
+        "mtlWidget0": {
+          "checkBox": false,
+          "type": 9
+        },
+        "mtlWidget1": {},
+        "radioButton_IntersectingFeatures": true,
+        "radioButton_zValue": true
+      },
+      "visible": true
+    },
+    {
+      "geomType": 2,
+      "layerId": "Jaringan_Sungai___Alur_Debris_Flow_dd47f4a9_a498_45e1_b07c_ca98cd54f656",
+      "name": "Jaringan Sungai & Alur Debris Flow",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Visible": true,
+        "comboBox_ObjectType": "Line",
+        "comboBox_altitudeMode": null,
+        "comboEdit_Color": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "comboEdit_Color2": {
+          "comboData": null,
+          "comboText": "None",
+          "editText": "",
+          "type": 7
+        },
+        "comboEdit_FilePath": {},
+        "comboEdit_Opacity": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "comboEdit_altitude2": {},
+        "fieldExpressionWidget_altitude": "0",
+        "geomWidget0": {},
+        "geomWidget1": {},
+        "geomWidget2": {},
+        "geomWidget3": {},
+        "geomWidget4": {},
+        "lineEdit_Name": "",
+        "mtlWidget0": {
+          "checkBox": false,
+          "type": 9
+        },
+        "mtlWidget1": {},
+        "radioButton_IntersectingFeatures": true,
+        "radioButton_zValue": true
+      },
+      "visible": true
+    },
+    {
+      "geomType": 1,
+      "layerId": "Nama_Dusun_Desa_Tajuk_dcc8ab81_1965_4daf_b111_22be84e8486b",
+      "name": "Nama Dusun Desa Tajuk",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Label": false,
+        "checkBox_Outline": true,
+        "checkBox_Underline": false,
+        "checkBox_Visible": true,
+        "colorButton_BgColor": [
+          255,
+          255,
+          255,
+          176
+        ],
+        "colorButton_ConnColor": [
+          192,
+          192,
+          208,
+          255
+        ],
+        "colorButton_Label": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_OtlColor": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "comboBox_FontFamily": "sans-serif",
+        "comboBox_ObjectType": "Sphere",
+        "comboBox_altitudeMode": null,
+        "comboEdit_Color": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "comboEdit_Color2": {
+          "comboData": null,
+          "comboText": "None",
+          "editText": "",
+          "type": 7
+        },
+        "comboEdit_FilePath": {},
+        "comboEdit_Opacity": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "comboEdit_altitude2": {},
+        "expression_Label": "\"FCODE\"",
+        "fieldExpressionWidget_altitude": "0",
+        "geomWidget0": {
+          "comboData": null,
+          "comboText": "Expression",
+          "editText": "151.0",
+          "type": 1
+        },
+        "geomWidget1": {},
+        "geomWidget2": {},
+        "geomWidget3": {},
+        "geomWidget4": {},
+        "groupBox_Background": true,
+        "groupBox_Conn": true,
+        "labelHeightWidget": {
+          "comboData": 1,
+          "comboText": "Relative",
+          "editText": "50",
+          "type": 6
+        },
+        "lineEdit_Name": "",
+        "mtlWidget0": {
+          "checkBox": false,
+          "type": 9
+        },
+        "mtlWidget1": {},
+        "radioButton_IntersectingFeatures": true,
+        "radioButton_zValue": true,
+        "slider_FontSize": 3
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "DEM_Elevasi__30m__a24a6069_316e_475e_95ba_1238559c0674",
+      "name": "DEM Elevasi (30m)",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "comboBox_ClipLayer": "Batas_Administrasi_Desa_Tajuk_d00449bc_44a9_4602_94e8_d3d4780b3132",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "863f0f0f",
+            "name": "map (canvas)",
+            "properties": {
+              "checkBox_FlatShading": false,
+              "checkBox_Shading": true,
+              "checkBox_TransparentBackground": false,
+              "colorButton_Color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "comboBox_TextureSize": "1024",
+              "layerIds": [],
+              "lineEdit_ImageFile": "",
+              "radioButton_WebP": true,
+              "spinBox_Opacity": 100
+            },
+            "type": 0
+          }
+        ],
+        "mtlId": "863f0f0f",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3,
+        "spinBox_TileSideSegments": 512
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "NDVI__Kerapatan_Vegetasi__d6caedee_8163_417c_9750_bf54574ba3e6",
+      "name": "NDVI (Kerapatan Vegetasi)",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "comboBox_ClipLayer": "Batas_Administrasi_Desa_Tajuk_d00449bc_44a9_4602_94e8_d3d4780b3132",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "999c9735",
+            "name": "map (canvas)",
+            "properties": {
+              "checkBox_FlatShading": false,
+              "checkBox_Shading": true,
+              "checkBox_TransparentBackground": false,
+              "colorButton_Color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "comboBox_TextureSize": "1024",
+              "layerIds": [],
+              "lineEdit_ImageFile": "",
+              "radioButton_WebP": true,
+              "spinBox_Opacity": 100
+            },
+            "type": 0
+          }
+        ],
+        "mtlId": "999c9735",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3,
+        "spinBox_TileSideSegments": 512
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "Kemiringan_Lereng_____4acc6a24_afc9_4f8a_95fa_ab3cb480403e",
+      "name": "Kemiringan Lereng (%)",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "comboBox_ClipLayer": "Batas_Administrasi_Desa_Tajuk_d00449bc_44a9_4602_94e8_d3d4780b3132",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "b021ea28",
+            "name": "map (canvas)",
+            "properties": {
+              "checkBox_FlatShading": false,
+              "checkBox_Shading": true,
+              "checkBox_TransparentBackground": false,
+              "colorButton_Color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "comboBox_TextureSize": "1024",
+              "layerIds": [],
+              "lineEdit_ImageFile": "",
+              "radioButton_WebP": true,
+              "spinBox_Opacity": 100
+            },
+            "type": 0
+          }
+        ],
+        "mtlId": "b021ea28",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3,
+        "spinBox_TileSideSegments": 512
+      },
+      "visible": true
+    },
+    {
+      "geomType": 1,
+      "layerId": "Titik_Kejadian_Longsor_BPBD_b33f3653_c109_44af_b52a_9abc0df338a8",
+      "name": "Titik Kejadian Longsor BPBD",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Label": false,
+        "checkBox_Outline": true,
+        "checkBox_Underline": false,
+        "checkBox_Visible": true,
+        "colorButton_BgColor": [
+          255,
+          255,
+          255,
+          176
+        ],
+        "colorButton_ConnColor": [
+          192,
+          192,
+          208,
+          255
+        ],
+        "colorButton_Label": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_OtlColor": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "comboBox_FontFamily": "sans-serif",
+        "comboBox_ObjectType": "Sphere",
+        "comboBox_altitudeMode": null,
+        "comboEdit_Color": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "comboEdit_Color2": {
+          "comboData": null,
+          "comboText": "None",
+          "editText": "",
+          "type": 7
+        },
+        "comboEdit_FilePath": {},
+        "comboEdit_Opacity": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "comboEdit_altitude2": {},
+        "expression_Label": "\"Dusun\"",
+        "fieldExpressionWidget_altitude": "0",
+        "geomWidget0": {
+          "comboData": null,
+          "comboText": "Expression",
+          "editText": "151.0",
+          "type": 1
+        },
+        "geomWidget1": {},
+        "geomWidget2": {},
+        "geomWidget3": {},
+        "geomWidget4": {},
+        "groupBox_Background": true,
+        "groupBox_Conn": true,
+        "labelHeightWidget": {
+          "comboData": 1,
+          "comboText": "Relative",
+          "editText": "50",
+          "type": 6
+        },
+        "lineEdit_Name": "",
+        "mtlWidget0": {
+          "checkBox": false,
+          "type": 9
+        },
+        "mtlWidget1": {},
+        "radioButton_Expression": true,
+        "radioButton_IntersectingFeatures": true,
+        "slider_FontSize": 3
+      },
+      "visible": true
+    },
+    {
+      "geomType": 3,
+      "layerId": "Batas_Administrasi_Desa_Tajuk_d00449bc_44a9_4602_94e8_d3d4780b3132",
+      "name": "Batas Administrasi Desa Tajuk",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Label": false,
+        "checkBox_Outline": true,
+        "checkBox_Underline": false,
+        "checkBox_Visible": true,
+        "colorButton_BgColor": [
+          255,
+          255,
+          255,
+          176
+        ],
+        "colorButton_ConnColor": [
+          192,
+          192,
+          208,
+          255
+        ],
+        "colorButton_Label": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_OtlColor": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "comboBox_FontFamily": "sans-serif",
+        "comboBox_ObjectType": "Polygon",
+        "comboBox_altitudeMode": null,
+        "comboEdit_Color": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "comboEdit_Color2": {
+          "comboData": null,
+          "comboText": "None",
+          "editText": "",
+          "type": 7
+        },
+        "comboEdit_FilePath": {},
+        "comboEdit_Opacity": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "comboEdit_altitude2": {},
+        "expression_Label": "\"NAMOBJ\"",
+        "fieldExpressionWidget_altitude": "0",
+        "geomWidget0": {},
+        "geomWidget1": {},
+        "geomWidget2": {},
+        "geomWidget3": {},
+        "geomWidget4": {},
+        "groupBox_Background": true,
+        "groupBox_Conn": true,
+        "labelHeightWidget": {
+          "comboData": 1,
+          "comboText": "Relative",
+          "editText": "50",
+          "type": 6
+        },
+        "lineEdit_Name": "",
+        "mtlWidget0": {},
+        "mtlWidget1": {},
+        "radioButton_IntersectingFeatures": true,
+        "radioButton_zValue": true,
+        "slider_FontSize": 3
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "Peta_Kerawanan_Longsor__AHP__638cd4b3_5792_4d85_aa8f_6171959b5ba0",
+      "name": "Peta Kerawanan Longsor (AHP)",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "comboBox_ClipLayer": "Batas_Administrasi_Desa_Tajuk_d00449bc_44a9_4602_94e8_d3d4780b3132",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "fd78985f",
+            "name": "map (canvas)",
+            "properties": {
+              "checkBox_FlatShading": false,
+              "checkBox_Shading": true,
+              "checkBox_TransparentBackground": false,
+              "colorButton_Color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "comboBox_TextureSize": "1024",
+              "layerIds": [],
+              "lineEdit_ImageFile": "",
+              "radioButton_WebP": true,
+              "spinBox_Opacity": 100
+            },
+            "type": 0
+          }
+        ],
+        "mtlId": "fd78985f",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3,
+        "spinBox_TileSideSegments": 512
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "fp:59b3af0e",
+      "name": "Flat Plane",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "lineEdit_Altitude": "0",
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "f7b6b5e3",
+            "name": "map (canvas)",
+            "properties": {
+              "checkBox_FlatShading": false,
+              "checkBox_Shading": true,
+              "checkBox_TransparentBackground": false,
+              "colorButton_Color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "comboBox_TextureSize": "1024",
+              "layerIds": [],
+              "lineEdit_ImageFile": "",
+              "radioButton_WebP": true,
+              "spinBox_Opacity": 100
+            },
+            "type": 0
+          }
+        ],
+        "mtlId": "f7b6b5e3",
+        "spinBox_Size": 3
+      },
+      "visible": true
+    }
+  ],
+  "Version": 30300
+}
