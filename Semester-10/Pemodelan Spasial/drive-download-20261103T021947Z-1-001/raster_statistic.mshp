@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAGA_METADATA>
+  <HISTORY saga-version="2.3.2">
+    <MODULE library="shapes_grid" id="2" name="Grid Statistics for Polygons">
+      <OPTION type="grid_system" id="PARAMETERS_GRID_SYSTEM" name="Grid system">
+        <CELLSIZE>0.095526692</CELLSIZE>
+        <XMIN>108.6043810625</XMIN>
+        <XMAX>111.5657085145</XMAX>
+        <YMIN>-8.163728654</YMIN>
+        <YMAX>-5.775561354</YMAX>
+      </OPTION>
+      <OPTION type="choice" id="NAMING" name="Field Naming" index="1">grid name</OPTION>
+      <OPTION type="choice" id="METHOD" name="Method" index="1">polygon wise (cell centers)</OPTION>
+      <OPTION type="boolean" id="PARALLELIZED" name="Use Multiple Cores">FALSE</OPTION>
+      <OPTION type="boolean" id="COUNT" name="Number of Cells">TRUE</OPTION>
+      <OPTION type="boolean" id="MIN" name="Minimum">TRUE</OPTION>
+      <OPTION type="boolean" id="MAX" name="Maximum">TRUE</OPTION>
+      <OPTION type="boolean" id="RANGE" name="Range">TRUE</OPTION>
+      <OPTION type="boolean" id="SUM" name="Sum">TRUE</OPTION>
+      <OPTION type="boolean" id="MEAN" name="Mean">TRUE</OPTION>
+      <OPTION type="boolean" id="VAR" name="Variance">TRUE</OPTION>
+      <OPTION type="boolean" id="STDDEV" name="Standard Deviation">TRUE</OPTION>
+      <OPTION type="integer" id="QUANTILE" name="Quantile">0</OPTION>
+      <INPUT_LIST type="grid_list" id="GRIDS" name="Grids" system="PARAMETERS_GRID_SYSTEM">
+        <Clippedmask type="grid_list" id="GRIDS" name="Grids" system="PARAMETERS_GRID_SYSTEM">
+          <FILE>C:/Users/LENOVO/AppData/Local/Temp/processing_c7c11d3d473d4c95bbf219a364cabce2/715cec21518441089dc1ef64efa17fbe/Clippedmask.sgrd</FILE>
+        </Clippedmask>
+      </INPUT_LIST>
+      <INPUT type="shapes" id="POLYGONS" name="Polygons">
+        <FILE>D:/pembelajaran/data pembelajaran/bahan ajar GIS msi/pertemuan rs4/data_latihan/wil_riset.shp</FILE>
+      </INPUT>
+      <OUTPUT type="shapes" id="RESULT" name="Statistics">wil_riset [Grid Statistics]</OUTPUT>
+    </MODULE>
+  </HISTORY>
+  <SOURCE>
+    <FILE></FILE>
+    <DATABASE>
+      <FIELDS>
+        <FIELD TYPE="STRING">STATISTIK</FIELD>
+        <FIELD TYPE="STRING">KABUPATEN</FIELD>
+        <FIELD TYPE="STRING">PROPINSI</FIELD>
+        <FIELD TYPE="STRING">LUAS_KM2</FIELD>
+        <FIELD TYPE="STRING">DATA</FIELD>
+        <FIELD TYPE="INTEGER">Clippedmask [CELLS]</FIELD>
+        <FIELD TYPE="DOUBLE">Clippedmask [MIN]</FIELD>
+        <FIELD TYPE="DOUBLE">Clippedmask [MAX]</FIELD>
+        <FIELD TYPE="DOUBLE">Clippedmask [RANGE]</FIELD>
+        <FIELD TYPE="DOUBLE">Clippedmask [SUM]</FIELD>
+        <FIELD TYPE="DOUBLE">Clippedmask [MEAN]</FIELD>
+        <FIELD TYPE="DOUBLE">Clippedmask [VARIANCE]</FIELD>
+        <FIELD TYPE="DOUBLE">Clippedmask [STDDEV]</FIELD>
+      </FIELDS>
+    </DATABASE>
+    <PROJECTION></PROJECTION>
+  </SOURCE>
+  <DESCRIPTION></DESCRIPTION>
+</SAGA_METADATA>
